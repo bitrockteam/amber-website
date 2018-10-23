@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Amber Design System',
-
+  dest: './dist',
   themeConfig: {
     sidebar: {
       '/': [
