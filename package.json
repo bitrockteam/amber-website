@@ -15,7 +15,7 @@
     "deploy": "npm run build && npm run gh:pages"
   },
   "dependencies": {
-    "vuepress": "1.0.0-alpha.13"
+    "vuepress": "1.0.0-alpha.18"
   },
   "devDependencies": {
     "gh-pages": "2.0.1"
