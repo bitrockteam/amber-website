@@ -1,4 +1,7 @@
 # amber-website
+
+![./logo/logo-horizontal.svg](./logo/logo-horizontal.svg)
+
 Docs &amp; guides for the Amber Design System, based on the [VuePress](https://vuepress.vuejs.org/) static site generator.
 
 ### Available NPM tasks
