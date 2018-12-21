@@ -21,7 +21,6 @@
           class="action-button"
           :item="actionLink"
         />
-        <a :href="actionLink">{{data.actionText}}</a>
       </p>
     </div>
 

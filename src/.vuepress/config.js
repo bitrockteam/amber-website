@@ -1,5 +1,6 @@
 module.exports = {
-  title: 'Amber Design System',
+  title: 'Amber',
+  description: 'Bitrock Design System',
   dest: './dist',
   themeConfig: {
     sidebar: {
@@ -13,6 +14,12 @@ module.exports = {
           ]
         }
       ]
-    }
+    },
+    
+    nav: [
+      { text: 'Home', link: '/' },
+      { text: 'Overview', link: '/overview/' },
+      { text: 'Visual', link: '/visual/' },
+    ]
   }
 }
