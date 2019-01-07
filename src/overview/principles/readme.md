@@ -1,3 +1,3 @@
-# Principles / pillars
+# Principles
 
 some other content

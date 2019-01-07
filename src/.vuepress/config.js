@@ -12,14 +12,37 @@ module.exports = {
             '/overview/introduction/',
             '/overview/principles/',
           ]
-        }
+        },
+        {
+          title: 'Design',
+          collapsable: false,
+          children: [
+            '/design/color/',
+          ]
+        },
+        {
+          title: 'Components',
+          collapsable: false,
+          children: [
+            '/components/banner/',
+            '/components/button/',
+          ]
+        },
+        {
+          title: 'Resources',
+          collapsable: false,
+          children: [
+            '/resources/',
+          ]
+        },
       ]
     },
     
     nav: [
-      { text: 'Home', link: '/' },
       { text: 'Overview', link: '/overview/' },
-      { text: 'Visual', link: '/visual/' },
+      { text: 'Design', link: '/design/' },
+      { text: 'Components', link: '/components/' },
+      { text: 'Resources', link: '/resources/' },
     ]
   }
 }

@@ -1,5 +1,0 @@
----
-title: Visual
----
-
-# Visual
