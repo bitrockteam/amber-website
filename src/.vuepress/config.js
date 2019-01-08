@@ -19,6 +19,7 @@ module.exports = {
           children: [
             '/design/color/',
             '/design/typography/',
+            '/design/iconography/',
           ]
         },
         {
