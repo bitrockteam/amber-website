@@ -16,6 +16,8 @@
   },
   "dependencies": {
     "@amber-ds/visual": "0.5.3",
+    "node-sass": "4.11.0",
+    "sass-loader": "7.1.0",
     "vuepress": "1.0.0-alpha.27"
   },
   "devDependencies": {
