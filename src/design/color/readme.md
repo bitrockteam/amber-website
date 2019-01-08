@@ -1,6 +1,10 @@
 # Color
 
-<section class="color-card-container grid-1-3">
+## Color palette
+
+<div class="container grid color">
+
+<section class="color-card-container grid-1-2">
 
 ### Orange
 
@@ -46,8 +50,7 @@
 </div>
 </section>
 
-
-<section class="color-card-container grid-1-3">
+<section class="color-card-container grid-1-2">
 
 ### Grey
 
@@ -92,3 +95,60 @@
     <span>#1F1F1F</span>
 </div>
 </section>
+
+<section class="color-card-container grid-1-2">
+
+### Semantic
+
+<div class="color-card light" style="background-color: #388E3C">
+    <span>$success-700</span>
+    <span>#388E3C</span>
+</div>
+<div class="color-card dark" style="background-color: #E8F5E9">
+    <span>$success-50</span>
+    <span>#E8F5E9</span>
+</div>
+
+<div class="color-card dark" style="background-color: #FBC02D">
+    <span>$warning-50</span>
+    <span>#FBC02D</span>
+</div>
+<div class="color-card dark" style="background-color: #FFFDE7">
+    <span>$warning-700</span>
+    <span>#FFFDE7</span>
+</div>
+
+<div class="color-card light" style="background-color: #D32F2F">
+    <span>$error-700</span>
+    <span>#D32F2F</span>
+</div>
+<div class="color-card dark" style="background-color: #FFEBEE">
+    <span>$error-50</span>
+    <span>#FFEBEE</span>
+</div>
+
+<div class="color-card light" style="background-color: #0288D1">
+    <span>$info-700</span>
+    <span>#0288D1</span>
+</div>
+<div class="color-card dark" style="background-color: #E1F5FE">
+    <span>$info-50</span>
+    <span>#E1F5FE</span>
+</div>
+</section>
+
+<section class="color-card-container grid-1-2">
+
+### Neutral
+
+<div class="color-card light" style="background-color: #000000">
+    <span>Black</span>
+    <span>#000000</span>
+</div>
+<div class="color-card dark" style="background-color: #FFFFFF">
+    <span>White</span>
+    <span>#FFFFFF</span>
+</div>
+</section>
+
+</div>

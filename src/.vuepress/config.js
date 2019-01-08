@@ -18,6 +18,7 @@ module.exports = {
           collapsable: false,
           children: [
             '/design/color/',
+            '/design/typography/',
           ]
         },
         {
