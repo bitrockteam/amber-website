@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/',
   title: 'Amber',
   description: 'Bitrock Design System',
   head: [
@@ -10,7 +11,7 @@ module.exports = {
     ['meta', { name: 'msapplication-TileColor', content: '#da532c' }],
     ['meta', { name: 'theme-color', content: '#eb6400' }]
   ],
-  dest: './dist',
+  // dest: './dist',
   themeConfig: {
     sidebar: {
       '/': [
@@ -28,7 +29,10 @@ module.exports = {
           children: [
             '/design/color/',
             '/design/typography/',
+            '/design/spacing/',
+            '/design/grid/',
             '/design/iconography/',
+            '/design/forms/',
           ]
         },
         {
