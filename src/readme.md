@@ -1,7 +1,6 @@
 ---
 home: true
-# heroImage: /hero.png
-heroImage: https://github.com/bitrockteam/amber-website/raw/master/logo/logo.svg?sanitize=true
+heroImage: logo/logo.svg
 actionText: Get Started →
 actionLink: /overview/introduction/
 features:
