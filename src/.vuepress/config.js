@@ -11,7 +11,7 @@ module.exports = {
     ['meta', { name: 'msapplication-TileColor', content: '#da532c' }],
     ['meta', { name: 'theme-color', content: '#eb6400' }]
   ],
-  // dest: './dist',
+  dest: './dist',
   themeConfig: {
     sidebar: {
       '/': [
