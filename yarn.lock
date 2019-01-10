@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@amber-ds/visual@0.6.2":
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/@amber-ds/visual/-/visual-0.6.2.tgz#eeeb3f31ac3c2bdaa40b60b4d5ee82434cfdb220"
-  integrity sha512-f9XIqVGHMPQMIMWTTAGFELMaafQLsMeXjeJBLHx5L/ifw4sbHLe8C/7x6fKa5uGRGm43IX3lDq4WWahWC8wqbg==
+"@amber-ds/visual@0.6.3":
+  version "0.6.3"
+  resolved "https://registry.yarnpkg.com/@amber-ds/visual/-/visual-0.6.3.tgz#bfd2c56eb422b43058a6da5ca4c59945d26b47c0"
+  integrity sha512-VC1G2k29+IuwrIV1wTwbW9eUtdCpITrr8TXrE4T807mppcRdx/daLC7gKWXp3xy0ZlKS1fJjI185hRzLfGO8Tg==
   dependencies:
     normalize.css bitrockteam/normalize.css
 

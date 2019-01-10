@@ -20,19 +20,18 @@ module.exports = {
           collapsable: false,
           children: [
             '/overview/introduction/',
-            '/overview/principles/',
           ]
         },
         {
-          title: 'Design',
+          title: 'Visual',
           collapsable: false,
           children: [
-            '/design/color/',
-            '/design/typography/',
-            '/design/spacing/',
-            '/design/grid/',
-            '/design/iconography/',
-            '/design/forms/',
+            '/visual/color/',
+            '/visual/typography/',
+            '/visual/grid/',
+            '/visual/iconography/',
+            '/visual/forms/',
+            '/visual/spacing/',
           ]
         },
         {
@@ -41,6 +40,12 @@ module.exports = {
           children: [
             '/components/banner/',
             '/components/button/',
+            '/components/datepicker/',
+            '/components/card/',
+            '/components/code/',
+            '/components/modal/',
+            '/components/progress/',
+            '/components/tabs/',
           ]
         },
         {
@@ -55,7 +60,7 @@ module.exports = {
     
     nav: [
       { text: 'Overview', link: '/overview/' },
-      { text: 'Design', link: '/design/' },
+      { text: 'Visual', link: '/visual/' },
       { text: 'Components', link: '/components/' },
       { text: 'Resources', link: '/resources/' },
     ]
