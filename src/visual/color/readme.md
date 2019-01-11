@@ -4,7 +4,7 @@
 
 <div class="container row color">
 
-<section class="color-card-container col-6">
+<section class="color-card-container col-12 col-md-6">
 
 ### Orange
 
@@ -50,7 +50,7 @@
 </div>
 </section>
 
-<section class="color-card-container col-6">
+<section class="color-card-container col-12 col-md-6">
 
 ### Grey
 
@@ -96,7 +96,7 @@
 </div>
 </section>
 
-<section class="color-card-container col-6">
+<section class="color-card-container col-12 col-md-6">
 
 ### Semantic
 
@@ -137,7 +137,7 @@
 </div>
 </section>
 
-<section class="color-card-container col-6">
+<section class="color-card-container col-12 col-md-6">
 
 ### Neutral
 
