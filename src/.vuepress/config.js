@@ -66,17 +66,18 @@ module.exports = {
     },
 
     /*
-    // Last Updated
-    lastUpdated: 'Last Updated',
-    */
-
-    /*
-    // Git Repo and Edit Links
+    // Git Repo in Navbar
     // Assumes GitHub. Can also be a full GitLab url.
     repo: 'bitrockteam/amber-website',
     // Customising the header label
     // Defaults to "GitHub"/"GitLab"/"Bitbucket" depending on `themeConfig.repo`
     repoLabel: 'GitHub',
+    */
+
+    /*
+    // Edit Links in Pages
+    // if your docs are in a different repo from your main project:
+    docsRepo: 'bitrockteam/amber-website',
     // if your docs are not at the root of the repo:
     docsDir: 'src',
     // if your docs are in a specific branch (defaults to 'master'):
@@ -85,6 +86,11 @@ module.exports = {
     editLinks: true,
     // custom text for edit link. Defaults to "Edit this page"
     editLinkText: 'Edit this page on GitHub!',
+    */
+
+    /*
+    // Last Updated in Pages
+    lastUpdated: 'Last Updated',
     */
     
   }
