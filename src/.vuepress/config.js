@@ -1,5 +1,4 @@
 module.exports = {
-  base: '/',
   title: 'Amber',
   description: 'Bitrock Design System',
   head: [
@@ -11,8 +10,16 @@ module.exports = {
     ['meta', { name: 'msapplication-TileColor', content: '#da532c' }],
     ['meta', { name: 'theme-color', content: '#eb6400' }]
   ],
+  base: '/',
   dest: './dist',
   themeConfig: {
+    logo: '/logo.svg',
+    nav: [
+      { text: 'Overview', link: '/overview/' },
+      { text: 'Visual', link: '/visual/' },
+      { text: 'Components', link: '/components/' },
+      { text: 'Resources', link: '/resources/' },
+    ],
     sidebar: {
       '/': [
         {
@@ -57,12 +64,28 @@ module.exports = {
         },
       ]
     },
+
+    /*
+    // Last Updated
+    lastUpdated: 'Last Updated',
+    */
+
+    /*
+    // Git Repo and Edit Links
+    // Assumes GitHub. Can also be a full GitLab url.
+    repo: 'bitrockteam/amber-website',
+    // Customising the header label
+    // Defaults to "GitHub"/"GitLab"/"Bitbucket" depending on `themeConfig.repo`
+    repoLabel: 'GitHub',
+    // if your docs are not at the root of the repo:
+    docsDir: 'src',
+    // if your docs are in a specific branch (defaults to 'master'):
+    docsBranch: 'master',
+    // defaults to false, set to true to enable
+    editLinks: true,
+    // custom text for edit link. Defaults to "Edit this page"
+    editLinkText: 'Edit this page on GitHub!',
+    */
     
-    nav: [
-      { text: 'Overview', link: '/overview/' },
-      { text: 'Visual', link: '/visual/' },
-      { text: 'Components', link: '/components/' },
-      { text: 'Resources', link: '/resources/' },
-    ]
   }
 }
