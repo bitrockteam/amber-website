@@ -16,7 +16,7 @@
         ref="siteName"
         class="site-name"
         v-if="$siteTitle"
-        :class="{ 'can-hide': $site.themeConfig.logo }"
+        :class="{ '': $site.themeConfig.logo }"
       >{{ $siteTitle }}</span>
     </router-link>
 

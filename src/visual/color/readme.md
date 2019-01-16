@@ -2,9 +2,9 @@
 
 ## Color palette
 
-<div class="container grid color">
+<div class="container row color">
 
-<section class="color-card-container grid-1-2">
+<section class="color-card-container col-12 col-md-6">
 
 ### Orange
 
@@ -50,7 +50,7 @@
 </div>
 </section>
 
-<section class="color-card-container grid-1-2">
+<section class="color-card-container col-12 col-md-6">
 
 ### Grey
 
@@ -96,7 +96,7 @@
 </div>
 </section>
 
-<section class="color-card-container grid-1-2">
+<section class="color-card-container col-12 col-md-6">
 
 ### Semantic
 
@@ -137,7 +137,7 @@
 </div>
 </section>
 
-<section class="color-card-container grid-1-2">
+<section class="color-card-container col-12 col-md-6">
 
 ### Neutral
 

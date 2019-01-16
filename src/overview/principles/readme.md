@@ -1,3 +1,0 @@
-# Principles
-
-some other content
