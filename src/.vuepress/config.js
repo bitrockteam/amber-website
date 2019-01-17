@@ -36,7 +36,6 @@ module.exports = {
             '/visual/color/',
             '/visual/typography/',
             '/visual/grid/',
-            '/visual/iconography/',
             '/visual/forms/',
             '/visual/spacing/',
           ]
@@ -47,7 +46,7 @@ module.exports = {
           children: [
             '/components/banner/',
             '/components/button/',
-            '/components/datepicker/',
+            '/components/date/',
             '/components/card/',
             '/components/code/',
             '/components/modal/',

@@ -12,7 +12,7 @@
       <span
         class="arrow"
         v-if="collapsable"
-        :class="open ? 'down' : 'right'">
+        :class="open ? 'up' : 'down'">
       </span>
     </p>
 
@@ -62,14 +62,17 @@ export default {
   padding 0 1.5rem
   margin-top 0
   margin-bottom 0.5rem
+  display flex
+  justify-content space-between
+  align-items center
   &.open, &:hover
     color inherit
   .arrow
     position relative
-    top -0.12em
-    left 0.5em
+    // top -0.12em
+    // left 0.5em
   &:.open .arrow
-    top -0.18em
+    // top -0.18em
 
 .sidebar-group-items
   transition height .1s ease-out

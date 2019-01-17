@@ -1,10 +1,18 @@
 # Forms
 
-<label for="text-1">Input text</label>
-<input type="text" id="text-1" placeholder="Optional placeholder text">
+<div class="row">
 
-<label for="text-2">Text disabled</label>
-<input type="text" id="text-2" placeholder="Optional placeholder text" disabled>
+<div class="col-6">
+    <label for="text-1">Input text</label>
+    <input type="text" id="text-1" placeholder="Optional placeholder text">
+</div>
+
+<div class="col-6">
+    <label for="text-2">Text disabled</label>
+    <input type="text" id="text-2" placeholder="Optional placeholder text" disabled>
+</div>
+
+</div>
 
 <label for="text-3">Input text</label>
 <span>Optional helper text goes here</span>
