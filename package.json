@@ -15,6 +15,7 @@
     "deploy": "npm run build && npm run gh:pages"
   },
   "dependencies": {
+    "@amber-ds/components": "1.0.0",
     "@amber-ds/visual": "1.0.0",
     "vuepress": "1.0.0-alpha.32"
   },

@@ -2,6 +2,14 @@
 # yarn lockfile v1
 
 
+"@amber-ds/components@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@amber-ds/components/-/components-1.0.0.tgz#b513fe5e0c473536b0fceb8837e4f96c6764288b"
+  integrity sha512-zNCHx36/YaD7ey+hcIYJjLHS9bWLLPkVSXEQsbcS2ti83p5nOuhZ4rTGLvChRz8aHe8vi9tSenL1ca5ihKzu0w==
+  dependencies:
+    "@amber-ds/visual" "1.0.0"
+    lit-element "2.0.0-rc.2"
+
 "@amber-ds/visual@1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@amber-ds/visual/-/visual-1.0.0.tgz#af1c52a42c833c7f0d3ab6d677c2d27f73d27ca0"
@@ -4406,6 +4414,18 @@ linkify-it@^2.0.0:
   integrity sha512-4REs8/062kV2DSHxNfq5183zrqXMl7WP0WzABH9IeJI+NLm429FgE1PDecltYfnOoFDFlZGh2T8PfZn0r+GTRg==
   dependencies:
     uc.micro "^1.0.1"
+
+lit-element@2.0.0-rc.2:
+  version "2.0.0-rc.2"
+  resolved "https://registry.yarnpkg.com/lit-element/-/lit-element-2.0.0-rc.2.tgz#5975c3b282ce47937de861b48456036df71f422b"
+  integrity sha512-yP6mX23n8WUYXpS2RJUL87DSZYQY327YrnqFiSyPe9aSzjgJ5Jy3In3itzjeiFOT8Od4VKLM7u6bLG9tGFO1pw==
+  dependencies:
+    lit-html "^1.0.0-rc.2"
+
+lit-html@^1.0.0-rc.2:
+  version "1.0.0-rc.2"
+  resolved "https://registry.yarnpkg.com/lit-html/-/lit-html-1.0.0-rc.2.tgz#b9c904520fe005d349aa737a86d83645d97d5a89"
+  integrity sha512-4bq34lhVmwWly1zBXicOBJLOwaWfjOVbchEEmFnZLuztxjh5wRd2WqV0URX8Q47MQ7PaIjn/eXyTRKsYhSAeRw==
 
 load-json-file@^1.0.0:
   version "1.1.0"

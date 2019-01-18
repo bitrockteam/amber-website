@@ -14,12 +14,12 @@ module.exports = {
   dest: './dist',
   themeConfig: {
     logo: '/logo.svg',
-    nav: [
-      { text: 'Overview', link: '/overview/' },
-      { text: 'Visual', link: '/visual/' },
-      { text: 'Components', link: '/components/' },
-      { text: 'Resources', link: '/resources/' },
-    ],
+    // nav: [
+    //   { text: 'Overview', link: '/overview/' },
+    //   { text: 'Visual', link: '/visual/' },
+    //   { text: 'Components', link: '/components/' },
+    //   { text: 'Resources', link: '/resources/' },
+    // ],
     sidebar: {
       '/': [
         {
@@ -44,6 +44,7 @@ module.exports = {
           title: 'Components',
           collapsable: false,
           children: [
+            '/components/introduction/',
             '/components/banner/',
             '/components/button/',
             '/components/date/',
@@ -58,20 +59,20 @@ module.exports = {
           title: 'Resources',
           collapsable: false,
           children: [
-            '/resources/',
+            '/resources/how-to/',
+            '/resources/examples/',
+            '/resources/changelog/'
           ]
         },
       ]
     },
 
-    /*
     // Git Repo in Navbar
     // Assumes GitHub. Can also be a full GitLab url.
     repo: 'bitrockteam/amber-website',
     // Customising the header label
     // Defaults to "GitHub"/"GitLab"/"Bitbucket" depending on `themeConfig.repo`
     repoLabel: 'GitHub',
-    */
 
     /*
     // Edit Links in Pages
@@ -87,10 +88,8 @@ module.exports = {
     editLinkText: 'Edit this page on GitHub!',
     */
 
-    /*
     // Last Updated in Pages
-    lastUpdated: 'Last Updated',
-    */
+    // lastUpdated: 'Last Updated',
     
   }
 }
