@@ -1,52 +1,83 @@
 # Forms
 
-<div class="row">
+## Input text
 
-<div class="col-6">
+<div class="row forms">
+
+<div class="col-12 col-lg-6">
     <label for="text-1">Input text</label>
     <input type="text" id="text-1" placeholder="Optional placeholder text">
 </div>
 
-<div class="col-6">
+<div class="col-12 col-lg-6">
     <label for="text-2">Text disabled</label>
     <input type="text" id="text-2" placeholder="Optional placeholder text" disabled>
 </div>
 
+<div class="col-12 col-lg-6">
+    <label for="text-3">Input text</label>
+    <span>Optional helper text goes here</span>
+    <input type="text" id="text-3" placeholder="Optional placeholder text">
 </div>
 
-<label for="text-3">Input text</label>
-<span>Optional helper text goes here</span>
-<input type="text" id="text-3" placeholder="Optional placeholder text">
+<div class="col-12 col-lg-6">
+    <label for="text-4">Input text - error</label>
+    <span>Minimum 8 characters</span>
+    <input type="text" id="text-4" placeholder="8 characters minimum" minlength="8">
+    <span class="error">Error message</span>
+</div>
 
-<label for="text-4">Input text - error</label>
-<span>Minimum 8 characters</span>
-<input type="text" id="text-4" placeholder="8 characters minimum" minlength="8">
-<span class="error">Error message</span>
+<div class="col-12 col-lg-6">
+    <label for="number">Number</label>
+    <input type="number" id="number" size="">
+</div>
 
-<label for="number">Number</label>
-<input type="number" id="number" size="">
-<label for="email">Email</label>
-<input type="email" id="email" size="">
-<label for="password">Password</label>
-<input type="password" id="password" size="">
-<label for="search">Search</label>
-<input type="search" id="search" size="">
-<label for="tel">Tel</label>
-<input type="tel" id="tel" size="">
-<label for="url">Url</label>
-<input type="url" id="url" size="">
+<div class="col-12 col-lg-6">
+    <label for="email">Email</label>
+    <input type="email" id="email" size="">
+</div>
 
-<label for="textarea-1">Text Area label</label>
-<textarea id="textarea-1" placeholder="Optional placeholder text"></textarea>
+<div class="col-12 col-lg-6">
+    <label for="password">Password</label>
+    <input type="password" id="password" size="">
+</div>
 
-<label for="textarea-2">Text Area label</label>
-<textarea id="textarea-2" placeholder="Optional placeholder text" disabled></textarea>
+<div class="col-12 col-lg-6">
+    <label for="search">Search</label>
+    <input type="search" id="search" size="">
+</div>
 
-<label for="textarea-3">Text Area label</label>
-<span>Optional helper text goes here</span>
-<textarea id="textarea-3" placeholder="Optional placeholder text"></textarea>
+<div class="col-12 col-lg-6">
+    <label for="tel">Tel</label>
+    <input type="tel" id="tel" size="">
+</div>
 
-<label for="textarea-4">Text Area label - error</label>
-<span>Minimum 8 characters</span>
-<textarea id="textarea-4" placeholder="Optional placeholder text" minlength="8"></textarea>
-<span class="error">Error message</span>
+<div class="col-12 col-lg-6">
+    <label for="url">Url</label>
+    <input type="url" id="url" size="">
+</div>
+
+<div class="col-12 col-lg-6">
+    <label for="textarea-1">Text Area label</label>
+    <textarea id="textarea-1" placeholder="Optional placeholder text"></textarea>
+</div>
+
+<div class="col-12 col-lg-6">
+    <label for="textarea-2">Text Area label</label>
+    <textarea id="textarea-2" placeholder="Optional placeholder text" disabled></textarea>
+</div>
+
+<div class="col-12 col-lg-6">
+    <label for="textarea-3">Text Area label</label>
+    <span>Optional helper text goes here</span>
+    <textarea id="textarea-3" placeholder="Optional placeholder text"></textarea>
+</div>
+
+<div class="col-12 col-lg-6">
+    <label for="textarea-4">Text Area label - error</label>
+    <span>Minimum 8 characters</span>
+    <textarea id="textarea-4" placeholder="Optional placeholder text" minlength="8"></textarea>
+    <span class="error">Error message</span>
+</div>
+
+</div>

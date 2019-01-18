@@ -119,10 +119,10 @@ export default {
 .nav-links
   display inline-block
   a
-    line-height 1.4rem
-    color inherit
+    // line-height 1.4rem
+    color initial
     &:hover, &.router-link-active
-      color $accentColor
+      color $textColor
   .nav-item
     position relative
     display inline-block

@@ -2,7 +2,7 @@
 
 ## Color palette
 
-<div class="container row color">
+<div class="row color">
 
 <section class="color-card-container col-12 col-md-6">
 

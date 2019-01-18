@@ -69,7 +69,7 @@ a.sidebar-link
   color $textColor
   border-left 0.25rem solid transparent
   padding 0.35rem 1rem 0.35rem 1.25rem
-  line-height 1.4
+  // line-height 1.4
   width: 100%
   box-sizing: border-box
   &:hover

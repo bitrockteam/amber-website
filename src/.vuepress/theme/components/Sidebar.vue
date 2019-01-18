@@ -95,7 +95,7 @@ function resolveOpenGroupIndex (route, items) {
     .nav-item, .repo-link
       display block
       line-height 1.25rem
-      font-size 1.1em
+      // font-size 1.1em
       padding 0.5rem 0 0.5rem 1.5rem
   .sidebar-links
     padding 1.5rem 0
