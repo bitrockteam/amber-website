@@ -8,7 +8,8 @@ module.exports = {
     ['link', { rel: 'manifest', href: '/site.webmanifest' }],
     ['link', { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#eb6400' }],
     ['meta', { name: 'msapplication-TileColor', content: '#da532c' }],
-    ['meta', { name: 'theme-color', content: '#eb6400' }]
+    ['meta', { name: 'theme-color', content: '#eb6400' }],
+    ['script', { async: true, src: 'https://unpkg.com/@amber-ds/components@1.0.0/index.js' }]
   ],
   base: '/',
   dest: './dist',
@@ -59,7 +60,8 @@ module.exports = {
           title: 'Resources',
           collapsable: false,
           children: [
-            '/resources/how-to/',
+            '/resources/install/',
+            '/resources/compatibility/',
             '/resources/examples/',
             '/resources/changelog/'
           ]

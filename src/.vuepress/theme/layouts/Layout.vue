@@ -55,7 +55,6 @@ import Navbar from '../components/Navbar.vue'
 import Page from '../components/Page.vue'
 import Sidebar from '../components/Sidebar.vue'
 import { resolveSidebarItems } from '../util'
-import '@amber-ds/components';
 
 export default {
   components: { Home, Page, Sidebar, Navbar },
