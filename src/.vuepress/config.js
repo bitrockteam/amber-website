@@ -76,6 +76,18 @@ module.exports = {
     // Defaults to "GitHub"/"GitLab"/"Bitbucket" depending on `themeConfig.repo`
     repoLabel: 'GitHub',
 
+    plugins: [
+      '@vuepress/last-updated',
+      {
+        transformer: (timestamp, lang) => {
+          // Don't forget to install moment yourself
+          const moment = require('moment');
+          moment.locale(lang);
+          return moment(timestamp).fromNow();
+        }
+      }
+    ],
+
     /*
     // Edit Links in Pages
     // if your docs are in a different repo from your main project:
@@ -91,7 +103,7 @@ module.exports = {
     */
 
     // Last Updated in Pages
-    // lastUpdated: 'Last Updated',
+    lastUpdated: 'Last Updated',
     
   }
 }

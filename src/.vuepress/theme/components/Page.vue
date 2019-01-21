@@ -69,7 +69,7 @@ export default {
 
   computed: {
     contentMounted () {
-      return this.$vuepress.$get('contentMounted')
+      return this.$vuepress.$get('contentMounted') || true
     },
 
     lastUpdated () {

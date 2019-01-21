@@ -25,7 +25,7 @@ to get this result:
   <amber-tab-content><p>And also very pratical!</p></amber-tab-content>
 </amber-tabs>
 
-a fully working, styled and interactive element!
+A fully working, styled and interactive element!
 
 At the same time we wanted to have our components library to be as light as possible for both the network bandwith and browser's parser, so we developed it with standards in mind and using just a few tools/library that could help us:
 
