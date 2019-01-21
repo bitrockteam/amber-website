@@ -1,43 +1,28 @@
----
-sidebarDepth: 2
----
+![Cover](/img/cover.png)
 
-# Introduction
+## Introduction
 
-Think more about people. User-centered over design-centered. Bring people at the center of the digital product giving them feedbacks, animations, human dimension, digital contact, interaction.
-Something light, responsive, fast, interactive → GOAL: better user experience
+Amber is [Bitrock](https://bitrock.it/)'s open-source Design System crafted to help designers and developers building better digital products and experiences. The goals of the system include improving UI consistency and quality, making the design and development process more efficient and focused, establishing a shared vocabulary between designer and developer, and providing clear, discoverable guidance around design and development best practices.
 
-## 1
+## Principles
 
-Think more about people. User-centered over design-centered. Bring people at the center of the digital product giving them feedbacks, animations, human dimension, digital contact, interaction.
-Something light, responsive, fast, interactive → GOAL: better user experience
++ Amber is open
+It's a distributed effort, guided by the principles of the open-source movement. Amber's users are also its makers, and everyone is encouraged to contribute.
 
-## 2
++ Amber is inclusive
+It's designed and built to be accessible to all, regardless of ability or situation.
 
-Think more about people. User-centered over design-centered. Bring people at the center of the digital product giving them feedbacks, animations, human dimension, digital contact, interaction.
-Something light, responsive, fast, interactive → GOAL: better user experience
++ Amber is modular and flexible
+Amber's modularity ensures maximum flexibility in execution. Its components are designed to work seamlessly with each other, in whichever combination suits the needs of the user.
 
-## 3
++ Amber puts the user first
+Starting with rigorous research into users' needs and desires, and revised continuously based on their feedback, Amber is laser-focused on real people.
 
-Think more about people. User-centered over design-centered. Bring people at the center of the digital product giving them feedbacks, animations, human dimension, digital contact, interaction.
-Something light, responsive, fast, interactive → GOAL: better user experience
++ Amber builds consistency
+Based on the comprehensive IBM Design Language, every element and component of Amber was designed from the ground up to work elegantly together to ensure consistent, cohesive user experiences.
 
-## 4
+## Design System
 
-Think more about people. User-centered over design-centered. Bring people at the center of the digital product giving them feedbacks, animations, human dimension, digital contact, interaction.
-Something light, responsive, fast, interactive → GOAL: better user experience
+The system consists of visual guidelines, flexible components and useful resources.
 
-## 5
-
-Think more about people. User-centered over design-centered. Bring people at the center of the digital product giving them feedbacks, animations, human dimension, digital contact, interaction.
-Something light, responsive, fast, interactive → GOAL: better user experience
-
-## 6
-
-Think more about people. User-centered over design-centered. Bring people at the center of the digital product giving them feedbacks, animations, human dimension, digital contact, interaction.
-Something light, responsive, fast, interactive → GOAL: better user experience
-
-## 7
-
-Think more about people. User-centered over design-centered. Bring people at the center of the digital product giving them feedbacks, animations, human dimension, digital contact, interaction.
-Something light, responsive, fast, interactive → GOAL: better user experience
+<!-- Think more about people. User-centered over design-centered. Bring people at the center of the digital product giving them feedbacks, animations, human dimension, digital contact, interaction. Something light, responsive, fast, interactive → GOAL: better user experience -->

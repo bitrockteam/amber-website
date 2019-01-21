@@ -15,12 +15,12 @@ module.exports = {
   dest: './dist',
   themeConfig: {
     logo: '/logo.svg',
-    // nav: [
-    //   { text: 'Overview', link: '/overview/' },
-    //   { text: 'Visual', link: '/visual/' },
-    //   { text: 'Components', link: '/components/' },
-    //   { text: 'Resources', link: '/resources/' },
-    // ],
+    nav: [
+      // { text: 'Overview', link: '/overview/' },
+      // { text: 'Visual', link: '/visual/' },
+      // { text: 'Components', link: '/components/' },
+      // { text: 'Resources', link: '/resources/' },
+    ],
     sidebar: {
       '/': [
         {
@@ -31,9 +31,10 @@ module.exports = {
           ]
         },
         {
-          title: 'Visual',
+          title: 'Visual guidelines',
           collapsable: false,
           children: [
+            '/visual/overview/',
             '/visual/color/',
             '/visual/typography/',
             '/visual/grid/',

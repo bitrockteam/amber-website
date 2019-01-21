@@ -1,5 +1,5 @@
 ---
-title: Design
+title: Visual
 ---
 
-# Design
+# Visual
