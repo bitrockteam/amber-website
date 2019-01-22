@@ -25,7 +25,7 @@ It's designed and built to be accessible to all, regardless of ability or situat
 Amber's modularity ensures maximum flexibility in execution. Its components are designed to work seamlessly with each other, in whichever combination suits the needs of the user.
 
 #### Amber puts the user first
-Starting with rigorous research into users' needs and desires, and revised continuously based on their feedback, Amber is laser-focused on real people.
+Starting with rigorous research into user's needs and desires, and revised continuously based on their feedback, Amber is laser-focused on real people.
 
 #### Amber builds consistency
 Every element and component of Amber was designed from the ground up to work elegantly together to ensure consistent, cohesive user experiences.
