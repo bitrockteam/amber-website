@@ -39,7 +39,7 @@ a:focus, a:hover {
         margin-bottom: 2rem;
     }
 
-    .content:not(.custom) > h2 {
+    h2, .content:not(.custom) > h2 {
         margin-bottom: 2rem;
     }
 
@@ -68,10 +68,16 @@ a:focus, a:hover {
 
 .color {
 
+.row {
+    margin-bottom: 2rem;    
+}
+
 .color-card {
 	padding: 1rem;
 	display: flex;
-	justify-content: space-between;}
+	justify-content: space-between;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
   
 .color-card.dark span {
 	color: rgba(0,0,0,.87);
