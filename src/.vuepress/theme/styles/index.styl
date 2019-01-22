@@ -35,8 +35,18 @@ a:focus, a:hover {
 // Page
 
 .page {
-    h1, h2 {
-        margin-bottom: 1.5rem;
+    .content:not(.custom) > h1:first-child {
+        margin-bottom: 2rem;
+    }
+
+    .content:not(.custom) > h2 {
+        margin-bottom: 2rem;
+    }
+
+    .content:not(.custom) > h1 + h2,
+    .content:not(.custom) > h2 + h4 {
+        margin-top: 0;
+        padding-top: 0;
     }
 }
 

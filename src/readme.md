@@ -4,7 +4,7 @@ heroImage: /logo.svg
 heroText: Amber
 tagline: Description
 actionText: Get Started →
-actionLink: /overview/introduction/
+actionLink: /getting-started/introduction/
 features:
 # - title: Minimal
 #   details: Minimal setup with markdown-centered project structure helps you focus on writing.

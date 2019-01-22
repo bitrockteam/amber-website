@@ -1,8 +1,8 @@
 ---
-title: Introduction
+title: Overview
 ---
 
-# Introduction
+# Overview
 The main goal of the **Amber Design System** components implementation is to provide a set of small and usable widgets that are also easy to use for anyone who is pratical with HTML and/or Javascript.
 
 For instance to use a tabs widget, all you have to add in the document body is:

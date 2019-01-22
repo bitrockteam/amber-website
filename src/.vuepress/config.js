@@ -16,25 +16,23 @@ module.exports = {
   themeConfig: {
     logo: '/logo.svg',
     nav: [
-      // { text: 'Overview', link: '/overview/' },
-      // { text: 'Visual', link: '/visual/' },
-      // { text: 'Components', link: '/components/' },
-      // { text: 'Resources', link: '/resources/' },
+      { text: 'Visual guidelines', link: '/visual/color/' },
+      { text: 'Components', link: '/components/overview/' },
+      { text: 'Resources', link: '/resources/install/' },
     ],
     sidebar: {
       '/': [
         {
-          title: 'Overview',
+          title: 'Getting started',
           collapsable: false,
           children: [
-            '/overview/introduction/',
+            '/getting-started/introduction/',
           ]
         },
         {
           title: 'Visual guidelines',
           collapsable: false,
           children: [
-            '/visual/overview/',
             '/visual/color/',
             '/visual/typography/',
             '/visual/grid/',
@@ -46,7 +44,7 @@ module.exports = {
           title: 'Components',
           collapsable: false,
           children: [
-            '/components/introduction/',
+            '/components/overview/',
             '/components/banner/',
             '/components/button/',
             '/components/date/',
