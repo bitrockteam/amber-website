@@ -1,12 +1,12 @@
 ---
-title: Introduction
+title: Design System
 ---
 
-# Introduction
+# Design System
 
 ![Cover](/img/cover.png)
 
-## Design System
+## About
 
 Amber is an open source design system created by the team at [Bitrock](https://bitrock.it/) to help designers and developers build better digital products and experiences. The system consists of visual guidelines, flexible components and useful resources.
 

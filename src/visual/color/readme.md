@@ -1,14 +1,23 @@
 # Color
 
+The Amber color palette comes with 10 different weights, ranging from 50 (lightest) to 900 (darkest). 
+
 <div class="color">
 
+
 ## Palette
+
 
 <div class="row">
 
 <section class="color-card-container col-12 col-md-6">
 
-### Orange
+Orange is the new black! Start using `$orange-500` as our primary color then go up or down in weight.
+`$orange-50` is meant to be used only as background color.
+
+</section>
+
+<section class="color-card-container col-12 col-md-6">
 
 <div class="color-card dark" style="background-color: #FFF3E1">
     <span>$orange-50</span>
@@ -30,7 +39,7 @@
     <span>$orange-400</span>
     <span>#FB8F2D</span>
 </div>
-<div class="color-card dark" style="background-color: #EB6400">
+<div class="color-card primary dark" style="background-color: #EB6400">
     <span>$orange-500</span>
     <span>#EB6400</span>
 </div>
@@ -82,19 +91,19 @@
     <span>#999999</span>
 </div>
 <div class="color-card light" style="background-color: #7A7A7A">
-    <span>600 - 52%</span>
+    <span>$grey-600</span>
     <span>#7A7A7A</span>
 </div>
 <div class="color-card light" style="background-color: #5C5C5C">
-    <span>700 - 64%</span>
+    <span>$grey-700</span>
     <span>#5C5C5C</span>
 </div>
 <div class="color-card light" style="background-color: #3D3D3D">
-    <span>800 - 76%</span>
+    <span>$grey-800</span>
     <span>#3D3D3D</span>
 </div>
 <div class="color-card light" style="background-color: #1F1F1F">
-    <span>900 - 88%</span>
+    <span>$grey-900</span>
     <span>#1F1F1F</span>
 </div>
 

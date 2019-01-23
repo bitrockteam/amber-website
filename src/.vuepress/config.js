@@ -23,10 +23,12 @@ module.exports = {
     sidebar: {
       '/': [
         {
-          title: 'Getting started',
+          title: 'Introduction',
           collapsable: false,
           children: [
-            '/getting-started/introduction/',
+            '/introduction/design-system/',
+            '/introduction/install/',
+            '/introduction/changelog/',
           ]
         },
         {
@@ -59,10 +61,9 @@ module.exports = {
           title: 'Resources',
           collapsable: false,
           children: [
-            '/resources/install/',
+            '/resources/download/',
             '/resources/compatibility/',
             '/resources/examples/',
-            '/resources/changelog/'
           ]
         },
       ]

@@ -13,7 +13,27 @@ a:focus, a:hover {
 .home {
   .hero {
     img {
-      min-height: 160px;
+        min-height: 160px;
+    }
+    .action-button {
+        background: #eb6400;
+        color: #ffffff;
+        box-shadow: inset 0 -3px 0 0 #bf4c00;
+
+        display: inline-block;
+
+        padding: 1rem 1.5rem;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        white-space: nowrap;
+        transition: background .1s ease-out, border-color .1s ease-out, color .1s ease-out;
+
+        border-radius: 0;
+
+        &:hover {
+            background-color: #d55800;   
+        }
     }
   }
 }
@@ -39,7 +59,11 @@ a:focus, a:hover {
         margin-bottom: 2rem;
     }
 
-    h2, .content:not(.custom) > h2 {
+    .content h1 + p {
+        margin-bottom: 3rem;
+    }
+
+    .content h2, .content:not(.custom) > h2 {
         margin-bottom: 2rem;
     }
 
@@ -69,7 +93,7 @@ a:focus, a:hover {
 .color {
 
 .row {
-    margin-bottom: 2rem;    
+    margin-bottom: 2rem;
 }
 
 .color-card {
@@ -77,16 +101,20 @@ a:focus, a:hover {
 	display: flex;
 	justify-content: space-between;
     font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-}
-  
-.color-card.dark span {
-	color: rgba(0,0,0,.87);
-}
-  
-.color-card.light span {
-	color: rgba(255,255,255,.87);
-}
+    text-transform: lowercase;
 
+        &.primary {
+            padding: 2rem 1rem;
+        }
+
+        &.dark span {
+            color: rgba(0,0,0,.87);
+        }
+
+        &.light span {
+            color: rgba(255,255,255,.87);
+        }
+    }
 }
 
 

@@ -92,17 +92,17 @@ export default {
       line-height 1.3
       color lighten($textColor, 40%)
     .action-button
-      display inline-block
-      font-size 1.2rem
-      color #fff
-      background-color $accentColor
-      padding 0.8rem 1.6rem
-      border-radius 4px
-      transition background-color .1s ease
-      box-sizing border-box
-      border-bottom 1px solid darken($accentColor, 10%)
+    //   display inline-block
+    //   font-size 1.2rem
+    //   color #fff
+    //   background-color $accentColor
+    //   padding 0.8rem 1.6rem
+    //   border-radius 4px
+    //   transition background-color .1s ease
+    //   box-sizing border-box
+    //   border-bottom 1px solid darken($accentColor, 10%)
       &:hover
-        background-color lighten($accentColor, 10%)
+        // background-color lighten($accentColor, 10%)
   .features
     border-top 1px solid $borderColor
     padding 1.2rem 0
