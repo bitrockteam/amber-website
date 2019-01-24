@@ -28,7 +28,6 @@ module.exports = {
           children: [
             '/introduction/design-system/',
             '/introduction/install/',
-            '/introduction/changelog/',
           ]
         },
         {
@@ -37,6 +36,7 @@ module.exports = {
           children: [
             '/visual/color/',
             '/visual/typography/',
+            '/visual/layout/',
             '/visual/grid/',
             '/visual/forms/',
             '/visual/spacing/',
@@ -64,6 +64,7 @@ module.exports = {
             '/resources/download/',
             '/resources/compatibility/',
             '/resources/examples/',
+            '/resources/changelog/',
           ]
         },
       ]

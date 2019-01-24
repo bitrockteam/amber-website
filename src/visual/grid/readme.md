@@ -1,7 +1,8 @@
 # Grid
 
-<div class="container">
+<div class="grid">
 
+## Grid sizes
 
 <article class="grid-card-container row">
 
@@ -89,6 +90,16 @@
 
 </article>
 
+## Grid gutter
+
+```css
+--gutter: 2rem
+```
+
+## Mixed grids
+
+The grid layout is easily extended by nesting and mixing different column sizes.
+
 <article class="grid-card-container row">
 
 <div class="grid-card col-6" style="background-color: #F5F5F5">
@@ -116,6 +127,11 @@
 </div>
 
 </article>
+
+## Responsive classes
+Bootstrap’s grid includes five tiers of predefined classes for building complex responsive layouts. Customize the size of your columns on extra small, small, medium, large, or extra large devices however you see fit.
+
+For grids that are the same from the smallest of devices to the largest, use the .col and .col-* classes. Specify a numbered class when you need a particularly sized column.
 
 <article class="grid-card-container row">
 

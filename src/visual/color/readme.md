@@ -1,23 +1,22 @@
 # Color
 
-The Amber color palette comes with 10 different weights, ranging from 50 (lightest) to 900 (darkest). 
-
 <div class="color">
 
+## Primary
 
-## Palette
+<section class="primary row">
 
+<article class="color-card-container col-12 col-md-6">
 
-<div class="row">
+Orange is the new black!
 
-<section class="color-card-container col-12 col-md-6">
+The Amber color palette comes with 10 different weights, ranging from 50 (lightest) to 900 (darkest). Start using `$orange-500` as our primary color then go up or down in weight.
 
-Orange is the new black! Start using `$orange-500` as our primary color then go up or down in weight.
 `$orange-50` is meant to be used only as background color.
 
-</section>
+</article>
 
-<section class="color-card-container col-12 col-md-6">
+<article class="color-card-container col-12 col-md-6">
 
 <div class="color-card dark" style="background-color: #FFF3E1">
     <span>$orange-50</span>
@@ -60,11 +59,26 @@ Orange is the new black! Start using `$orange-500` as our primary color then go 
     <span>#933400</span>
 </div>
 
+</article>
+
 </section>
 
-<section class="color-card-container col-12 col-md-6">
 
-### Grey
+## Neutral
+
+<section class="neutral row">
+
+<article class="color-card-container col-12 col-md-6">
+
+Grey colors are used for text, backgrounds, lines and borders.
+
+We use `$grey-900` for high emphasis texts, `$grey-700` for medium emphasis texts and `$grey-500` for disabled texts.
+
+`$grey-50` is meant to be used only as background color.
+
+</article>
+
+<article class="color-card-container col-12 col-md-6">
 
 <div class="color-card dark" style="background-color: #F5F5F5">
     <span>$grey-50</span>
@@ -107,15 +121,16 @@ Orange is the new black! Start using `$orange-500` as our primary color then go 
     <span>#1F1F1F</span>
 </div>
 
+</article>
+
 </section>
 
-</div>
 
 ## Feedback
 
-<div class="row">
+<section class="feedback row">
 
-<section class="color-card-container col-12 col-md-6">
+<article class="color-card-container col-12 col-md-6">
 
 ### Success
 
@@ -128,24 +143,24 @@ Orange is the new black! Start using `$orange-500` as our primary color then go 
     <span>#E8F5E9</span>
 </div>
 
-</section>
+</article>
 
-<section class="color-card-container col-12 col-md-6">
+<article class="color-card-container col-12 col-md-6">
 
 ### Warning
 
 <div class="color-card dark" style="background-color: #FBC02D">
-    <span>$warning-50</span>
+    <span>$warning-700</span>
     <span>#FBC02D</span>
 </div>
 <div class="color-card dark" style="background-color: #FFFDE7">
-    <span>$warning-700</span>
+    <span>$warning-50</span>
     <span>#FFFDE7</span>
 </div>
 
-</section>
+</article>
 
-<section class="color-card-container col-12 col-md-6">
+<article class="color-card-container col-12 col-md-6">
 
 ### Error
 
@@ -158,9 +173,9 @@ Orange is the new black! Start using `$orange-500` as our primary color then go 
     <span>#FFEBEE</span>
 </div>
 
-</section>
+</article>
 
-<section class="color-card-container col-12 col-md-6">
+<article class="color-card-container col-12 col-md-6">
 
 ### Info
 
@@ -173,11 +188,11 @@ Orange is the new black! Start using `$orange-500` as our primary color then go 
     <span>#E1F5FE</span>
 </div>
 
-</section>
+</article>
 
-<section class="color-card-container col-12 col-md-6">
+<article class="color-card-container col-12 col-md-6">
 
-### Neutral
+### Basic
 
 <div class="color-card light" style="background-color: #000000">
     <span>$black</span>
@@ -188,8 +203,14 @@ Orange is the new black! Start using `$orange-500` as our primary color then go 
     <span>#FFFFFF</span>
 </div>
 
+</article>
+
 </section>
 
-</div>
+## Accessibility
+
+All type color combinations on Amber must pass [WCAG AA standards](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html) of 4.5:1 for normal text and 3:1 for large text. For larger text, if the font weight is light (300) or normal (400) the text should be no smaller than 24px. 
+
+Use [Color Contrast Checker](https://marijohannessen.github.io/color-contrast-checker) by Mari Johannessen or check out our [Contrast Grid](https://bit.ly/2RQ7VE5) provided by EightShapes.
 
 </div>
