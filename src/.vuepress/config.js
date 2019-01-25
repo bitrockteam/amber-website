@@ -49,9 +49,9 @@ module.exports = {
             '/components/overview/',
             '/components/banner/',
             '/components/button/',
-            '/components/date/',
             '/components/card/',
             '/components/code/',
+            '/components/date/',
             '/components/modal/',
             '/components/progress/',
             '/components/tabs/',
@@ -63,8 +63,8 @@ module.exports = {
           children: [
             '/resources/download/',
             '/resources/compatibility/',
-            '/resources/examples/',
-            '/resources/changelog/',
+            // '/resources/examples/',
+            // '/resources/changelog/',
           ]
         },
       ]
