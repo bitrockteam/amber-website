@@ -4,98 +4,181 @@
 
 ## Font stack
 
-The Shopify admin uses a font stack that adapts to the operating system it runs on, like Windows, iOS, or Android. For example:
+Amber uses a font stack that adapts to the operating system it runs on, like Windows, iOS, or Android. For example:
 
-* Apple devices will display San Francisco
-* Android devices will display Roboto
-* Devices running Windows will display Segoe UI
-* Machines running Linux will display the default sans-serif font for any running distribution
+* Apple devices will display [San Francisco](https://developer.apple.com/fonts/)
+* Android devices will display [Roboto]()
+* Devices running Windows will display [Segoe UI](https://docs.microsoft.com/en-us/typography/font-list/segoe-ui)
+* Machines running Linux will display the default sans-serif font
 
-The following font-stack ensures all browsers can load platform-specific fonts:
+### Sans-serif
 
 ```css
 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 ```
 
+### Monospace
+
+```css
+font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+```
+
 ## Type Scale
 
-Font sizes are smaller on mobile and scale up at the md breakpoint to be larger on desktop.
+Font sizes are smaller on mobile and scale up at the medium breakpoint to be larger on desktop.
 
-| Scale | Font size: Mobile | Line height: Mobile | Font size: Desktop | Line height: Desktop |
-| ----- | ----------------- | ------------------- | ------------------ | -------------------- |
-| d1    | 48px              | 56px                | 80px               | 88px                 |
-| d2    | 40px              | 48px                | 64px               | 72px                 |
-| d3    | 32px              | 40px                | 48px               | 56px                 |
-| h1    | 28px              | 36px                | 40px               | 48px                 |
-| h2    | 24px              | 32px                | 32px               | 40px                 |
-| h3    | 20px              | 28px                | 24px               | 32px                 |
-| h4    | 18px              | 28px                | 20px               | 28px                 |
-| h5    | 16px              | 24px                | 16px               | 24px                 |
-| h6    | 14px              | 20px                | 14px               | 20px                 |
-| p     | 16px              | 24px                | 16px               | 24px                 |
+### Display 1
 
-## Display title
+<div class="type-container">
 
-<h1 class="display-1">d1 - What does it take to look beyond?</h1>
+<h1 class="display-1">What does it take to look beyond?</h1>
 
-```html
-<h1 class="display-1">d1 - What does it take to look beyond?</h1>
-```
+</div>
 
-<h1 class="display-2">d2 - What does it take to look beyond?</h1>
+| Selector                      | Mobile Font Size  | Mobile Line height | Desktop Font Size | Desktop Line height |
+| ----------------------------- | ----------------- | ------------------ | ----------------- | ------------------- |
+| `<h1 class="display-1"></h1>` | 48px              | 56px               | 80px              | 88px                |
 
-```html
-<h1 class="display-2">d2 - What does it take to look beyond?</h1>
-```
+### Display 2
 
-<h1 class="display-3">d3 - What does it take to look beyond?</h1>
+<div class="type-container">
 
-```html
-<h1 class="display-3">d3 - What does it take to look beyond?</h1>
-```
+<h1 class="display-2">What does it take to look beyond?</h1>
 
-## Heading
+</div>
 
-<h1>h1 - What does it take to look beyond?</h1>
+| Selector                      | Mobile Font Size  | Mobile Line height | Desktop Font Size | Desktop Line height |
+| ----------------------------- | ----------------- | ------------------ | ----------------- | ------------------- |
+| `<h1 class="display-2"></h1>` | 40px              | 48px               | 64px              | 72px                |
 
-```html
-<h1>h1 - What does it take to look beyond?</h1>
-```
+### Display 3
 
-<h2>h2 - What does it take to look beyond?</h2>
+<div class="type-container">
 
-```html
-<h2>h2 - What does it take to look beyond?</h2>
-```
+<h1 class="display-3">What does it take to look beyond?</h1>
 
-<h3>h3 - What does it take to look beyond?</h3>
+</div>
 
-```html
-<h3>h3 - What does it take to look beyond?</h3>
-```
+| Selector                      | Mobile Font Size  | Mobile Line height | Desktop Font Size | Desktop Line height |
+| ----------------------------- | ----------------- | ------------------ | ----------------- | ------------------- |
+| `<h1 class="display-3"></h1>` | 32px              | 40px               | 48px              | 56px                |
 
-<h4>h4 - What does it take to look beyond?</h4>
+### Heading 1
 
-```html
-<h4>h4 - What does it take to look beyond?</h4>
-```
+<div class="type-container">
 
-<h5>h5 - What does it take to look beyond?</h5>
+<h1>What does it take to look beyond?</h1>
 
-```html
-<h5>h5 - What does it take to look beyond?</h5>
-```
+</div>
 
-<h6>h6 - What does it take to look beyond?</h6>
+| Selector                      | Mobile Font Size  | Mobile Line height | Desktop Font Size | Desktop Line height |
+| ----------------------------- | ----------------- | ------------------ | ----------------- | ------------------- |
+| `<h1></h1>`                   | 28px              | 36px               | 40px              | 48px                |
 
-```html
-<h6>h6 - What does it take to look beyond?</h6>
-```
+### Heading 2
 
-<p>p - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum eu nisl eu dignissim. Cras malesuada nunc in vestibulum ullamcorper. Aliquam sit amet magna consequat, aliquam velit a, scelerisque lacus.</p>
+<div class="type-container">
 
-```html
-<p>p - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum eu nisl eu dignissim. Cras malesuada nunc in vestibulum ullamcorper. Aliquam sit amet magna consequat, aliquam velit a, scelerisque lacus.</p>
-```
+<h2>What does it take to look beyond?</h2>
+
+</div>
+
+| Selector                      | Mobile Font Size  | Mobile Line height | Desktop Font Size | Desktop Line height |
+| ----------------------------- | ----------------- | ------------------ | ----------------- | ------------------- |
+| `<h2></h2>`                   | 24px              | 32px               | 32px              | 40px                |
+
+### Heading 3
+
+<div class="type-container">
+
+<h3>What does it take to look beyond?</h3>
+
+</div>
+
+| Selector                      | Mobile Font Size  | Mobile Line height | Desktop Font Size | Desktop Line height |
+| ----------------------------- | ----------------- | ------------------ | ----------------- | ------------------- |
+| `<h3></h3>`                   | 20px              | 28px               | 24px              | 32px                |
+
+### Heading 4
+
+<div class="type-container">
+
+<h4>What does it take to look beyond?</h4>
+
+</div>
+
+| Selector                      | Mobile Font Size  | Mobile Line height | Desktop Font Size | Desktop Line height |
+| ----------------------------- | ----------------- | ------------------ | ----------------- | ------------------- |
+| `<h4></h4>`                   | 18px              | 28px               | 20px              | 28px                |
+
+### Heading 5
+
+<div class="type-container">
+
+<h5>What does it take to look beyond?</h5>
+
+</div>
+
+| Selector                      | Mobile Font Size  | Mobile Line height | Desktop Font Size | Desktop Line height |
+| ----------------------------- | ----------------- | ------------------ | ----------------- | ------------------- |
+| `<h5></h5>`                   | 16px              | 24px               | 16px              | 24px                |
+
+### Heading 6
+
+<div class="type-container">
+
+<h6>What does it take to look beyond?</h6>
+
+</div>
+
+| Selector                      | Mobile Font Size  | Mobile Line height | Desktop Font Size | Desktop Line height |
+| ----------------------------- | ----------------- | ------------------ | ----------------- | ------------------- |
+| `<h5></h5>`                   | 14px              | 20px               | 14px              | 20px                |
+
+### Paragraph
+
+<div class="type-container">
+
+<h6>What does it take to look beyond?</h6>
+
+</div>
+
+| Selector                      | Mobile Font Size  | Mobile Line height | Desktop Font Size | Desktop Line height |
+| ----------------------------- | ----------------- | ------------------ | ----------------- | ------------------- |
+| `<h6></h6>`                   | 16px              | 24px               | 16px              | 24px                |
+
+## Kitchensink
+
+<p>Lorem ipsum <code>code</code> dolor sit amet, consectetur adipiscing <a href="#">link</a> elit. Fusce bibendum <i>italic</i> eu nisl eu dignissim. Cras malesuada <b>bold</b> nunc in vestibulum ullamcorper.</p>
+
+### Code
+
+<pre><code>.bitrock {
+  color: #bada55;
+}</code></pre>
+
+### Horizontal rule
+
+<hr>
+
+### Unordered list
+
+<ul>
+    <li>Unordered list item 1</li>
+    <li>Unordered list item 2</li>
+</ul>
+
+### Ordered list
+
+<ol>
+    <li>Ordered list item 1</li>
+    <li>Ordered list item 2</li>
+</ol>
+
+### Blockquote
+
+<blockquote>
+    <p>Yeah!! Bitrock is amazing.</p>
+</blockquote>
 
 </div>

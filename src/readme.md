@@ -2,21 +2,15 @@
 home: true
 heroImage: /logo.svg
 heroText: Amber
-tagline: Description
+tagline: Bitrock's Design System created to help designers and developers build great digital products and experiences
 actionText: Get Started →
 actionLink: /introduction/design-system/
 features:
-# - title: Minimal
-#   details: Minimal setup with markdown-centered project structure helps you focus on writing.
-# - title: User first
-#   details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
-# - title: Modular
-#   details: You can choose to use our global styles or our encapsulated Web Components, or both altogether!
+- title: User-centered
+  details: Designed for the end users with best practices and real world scenarios in mind.
 - title: Visual guidelines
-  details: Description
-- title: Components
-  details: Description
-- title: Resources
-  details: Description
+  details: A living document that contains all of our visual assets aimed to help you work faster and thoughtfulness.
+- title: Customizable components
+  details: An up-to-date library of all components, comprised of code, usage and style guidelines.
 footer: MIT Licensed | Copyright © 2019-present Bitrock srl
 ---

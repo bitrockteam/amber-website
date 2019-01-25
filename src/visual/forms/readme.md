@@ -1,6 +1,6 @@
 # Forms
 
-## Input text
+## Text input
 
 <div class="row forms">
 
@@ -26,6 +26,41 @@
     <input type="text" id="text-4" placeholder="8 characters minimum" minlength="8">
     <span class="error">Error message</span>
 </div>
+
+</div>
+
+## Text area
+
+<div class="row">
+
+<div class="col-12 col-lg-6">
+    <label for="textarea-1">Text Area label</label>
+    <textarea id="textarea-1" placeholder="Optional placeholder text"></textarea>
+</div>
+
+<div class="col-12 col-lg-6">
+    <label for="textarea-2">Text Area label</label>
+    <textarea id="textarea-2" placeholder="Optional placeholder text" disabled></textarea>
+</div>
+
+<div class="col-12 col-lg-6">
+    <label for="textarea-3">Text Area label</label>
+    <span>Optional helper text goes here</span>
+    <textarea id="textarea-3" placeholder="Optional placeholder text"></textarea>
+</div>
+
+<div class="col-12 col-lg-6">
+    <label for="textarea-4">Text Area label - error</label>
+    <span>Minimum 8 characters</span>
+    <textarea id="textarea-4" placeholder="Optional placeholder text" minlength="8"></textarea>
+    <span class="error">Error message</span>
+</div>
+
+</div>
+
+## Different input
+
+<div class="row">
 
 <div class="col-12 col-lg-6">
     <label for="number">Number</label>
@@ -55,29 +90,6 @@
 <div class="col-12 col-lg-6">
     <label for="url">Url</label>
     <input type="url" id="url" size="">
-</div>
-
-<div class="col-12 col-lg-6">
-    <label for="textarea-1">Text Area label</label>
-    <textarea id="textarea-1" placeholder="Optional placeholder text"></textarea>
-</div>
-
-<div class="col-12 col-lg-6">
-    <label for="textarea-2">Text Area label</label>
-    <textarea id="textarea-2" placeholder="Optional placeholder text" disabled></textarea>
-</div>
-
-<div class="col-12 col-lg-6">
-    <label for="textarea-3">Text Area label</label>
-    <span>Optional helper text goes here</span>
-    <textarea id="textarea-3" placeholder="Optional placeholder text"></textarea>
-</div>
-
-<div class="col-12 col-lg-6">
-    <label for="textarea-4">Text Area label - error</label>
-    <span>Minimum 8 characters</span>
-    <textarea id="textarea-4" placeholder="Optional placeholder text" minlength="8"></textarea>
-    <span class="error">Error message</span>
 </div>
 
 </div>

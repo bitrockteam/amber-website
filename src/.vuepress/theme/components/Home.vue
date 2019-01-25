@@ -84,13 +84,15 @@ export default {
       margin 3rem auto 1.5rem
     h1
       font-size 3rem
+      color #3d3d3d
     h1, .description, .action
       margin 1.8rem auto
     .description
-      max-width 35rem
+      max-width 40rem
       font-size 1.6rem
       line-height 1.3
-      color lighten($textColor, 40%)
+      // color lighten($textColor, 40%)
+      color #7a7a7a
     .action-button
     //   display inline-block
     //   font-size 1.2rem
@@ -121,9 +123,11 @@ export default {
       font-weight 500
       border-bottom none
       padding-bottom 0
-      color lighten($textColor, 10%)
+      // color lighten($textColor, 10%)
+      color #3d3d3d
     p
-      color lighten($textColor, 25%)
+      // color lighten($textColor, 25%)
+      color $textColor
   .footer
     padding 2.5rem
     border-top 1px solid $borderColor

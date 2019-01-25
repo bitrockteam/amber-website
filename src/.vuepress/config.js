@@ -18,7 +18,7 @@ module.exports = {
     nav: [
       { text: 'Visual guidelines', link: '/visual/color/' },
       { text: 'Components', link: '/components/overview/' },
-      { text: 'Resources', link: '/resources/install/' },
+      { text: 'Resources', link: '/resources/compatibility/' },
     ],
     sidebar: {
       '/': [
@@ -39,7 +39,7 @@ module.exports = {
             '/visual/layout/',
             '/visual/grid/',
             '/visual/forms/',
-            '/visual/spacing/',
+            // '/visual/spacing/',
           ]
         },
         {
@@ -61,7 +61,7 @@ module.exports = {
           title: 'Resources',
           collapsable: false,
           children: [
-            '/resources/download/',
+            // '/resources/download/',
             '/resources/compatibility/',
             // '/resources/examples/',
             // '/resources/changelog/',

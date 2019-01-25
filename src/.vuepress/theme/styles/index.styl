@@ -39,11 +39,28 @@ a:focus, a:hover {
 }
 
 .content {
+
+    h2:not(:first-child) {
+        margin-top: 3rem;
+    }
+
+    h3 {
+        margin-top: 2rem;
+    }
+
     .icon {
         &.outbound {
             display: none;
         }
     }
+
+    td:first-child, th:first-child {
+    padding-left: 1.5rem;
+    }
+
+    td:last-child, th:last-child {
+    padding-right: 1.5rem;
+}
 }
 
 // Sidebar
@@ -104,10 +121,6 @@ a:focus, a:hover {
     }
 }
 
-.row {
-    margin-bottom: 2.5rem;
-}
-
 .color-card {
 	padding: 1rem;
 	display: flex;
@@ -129,16 +142,29 @@ a:focus, a:hover {
     }
 }
 
+.content {
+    iframe {
+        border: 0;
+    }
+}
 
 // Visual / Typography
 
 .typography {
 
-  h1, h2, h3, h4, h5, h6 {
-    padding-bottom: 0 ;
-    border-bottom: 0;
-    margin-bottom: 1rem;
-  }
+    .type-container {
+        border: 1px solid #E0E0E0;
+        padding: 1rem 1.5rem;
+        text-align: left;
+        width: 100%;
+        margin-bottom: -1px;
+    
+        h1, h2, h3, h4, h5, h6, p {
+            padding-bottom: 0;
+            border-bottom: 0;
+            margin: 0;
+        }
+    }
 }
 
 // Visual / Grid
