@@ -24,7 +24,7 @@ module.exports = {
       '/': [
         {
           title: 'Introduction',
-          collapsable: false,
+          collapsable: true,
           children: [
             '/introduction/design-system/',
             '/introduction/install/',
@@ -32,7 +32,7 @@ module.exports = {
         },
         {
           title: 'Visual guidelines',
-          collapsable: false,
+          collapsable: true,
           children: [
             '/visual/color/',
             '/visual/typography/',
@@ -44,7 +44,7 @@ module.exports = {
         },
         {
           title: 'Components',
-          collapsable: false,
+          collapsable: true,
           children: [
             '/components/overview/',
             '/components/banner/',
@@ -59,7 +59,7 @@ module.exports = {
         },
         {
           title: 'Resources',
-          collapsable: false,
+          collapsable: true,
           children: [
             // '/resources/download/',
             '/resources/compatibility/',
