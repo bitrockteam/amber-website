@@ -19,6 +19,10 @@ module.exports = (options, ctx) => ({
 
   plugins: [
     '@vuepress/active-header-links',
-    '@vuepress/search'
+    '@vuepress/search',
+    ['@vuepress/google-analytics', {
+      'ga': 'UA-132704648-1'
+    }],
+    '@vuepress/back-to-top'
   ]
 })

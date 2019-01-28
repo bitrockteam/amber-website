@@ -845,6 +845,18 @@
   dependencies:
     lodash.throttle "^4.1.1"
 
+"@vuepress/plugin-back-to-top@1.0.0-alpha.33":
+  version "1.0.0-alpha.33"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-back-to-top/-/plugin-back-to-top-1.0.0-alpha.33.tgz#dec9ed744fea5ac267300d7f43843710a76efb6f"
+  integrity sha512-fQWwKrwJV//IM1OkEGFEKLmp7qm/eSpSAwJ5HaOpdx1jTmxa+tH2zcyw0cnGXC1xRwhDiqWYZG3iurbGgtghSg==
+  dependencies:
+    lodash.debounce "^4.0.8"
+
+"@vuepress/plugin-google-analytics@1.0.0-alpha.33":
+  version "1.0.0-alpha.33"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-google-analytics/-/plugin-google-analytics-1.0.0-alpha.33.tgz#857ec3777ca0776ad97f994c5f3cd5ad9e527a9f"
+  integrity sha512-07G/mtyZ91cVzDfxs9s6szuS7kf5LZLPo0o39b0VoxWg71EiPNVE4BVH5ArTNDsSf/IEc3lBoF0LTaAoRltPqw==
+
 "@vuepress/plugin-last-updated@^1.0.0-alpha.33":
   version "1.0.0-alpha.33"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-last-updated/-/plugin-last-updated-1.0.0-alpha.33.tgz#f776a04cb2a228fb0bcde6de6d4a58590ec7cde9"

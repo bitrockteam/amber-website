@@ -1,6 +1,8 @@
 module.exports = {
   title: 'Amber',
+
   description: 'Bitrock Design System',
+
   head: [
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
     ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' }],
@@ -11,8 +13,11 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#eb6400' }],
     ['script', { async: true, src: 'https://unpkg.com/@amber-ds/components@1.0.0/index.js' }]
   ],
+
   base: '/',
+
   dest: './dist',
+
   themeConfig: {
     logo: '/logo.svg',
     nav: [
@@ -70,40 +75,14 @@ module.exports = {
       ]
     },
 
-    // Git Repo in Navbar
-    // Assumes GitHub. Can also be a full GitLab url.
     repo: 'bitrockteam/amber-website',
-    // Customising the header label
-    // Defaults to "GitHub"/"GitLab"/"Bitbucket" depending on `themeConfig.repo`
+
     repoLabel: 'GitHub',
 
-    plugins: [
-      '@vuepress/last-updated',
-      {
-        transformer: (timestamp, lang) => {
-          // Don't forget to install moment yourself
-          const moment = require('moment');
-          moment.locale(lang);
-          return moment(timestamp).fromNow();
-        }
-      }
-    ],
+    plugins: {
+      
+    },
 
-    /*
-    // Edit Links in Pages
-    // if your docs are in a different repo from your main project:
-    docsRepo: 'bitrockteam/amber-website',
-    // if your docs are not at the root of the repo:
-    docsDir: 'src',
-    // if your docs are in a specific branch (defaults to 'master'):
-    docsBranch: 'master',
-    // defaults to false, set to true to enable
-    editLinks: true,
-    // custom text for edit link. Defaults to "Edit this page"
-    editLinkText: 'Edit this page on GitHub!',
-    */
-
-    // Last Updated in Pages
     lastUpdated: 'Last Updated',
     
   }

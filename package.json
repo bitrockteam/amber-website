@@ -4,6 +4,9 @@
   "main": "index.js",
   "repository": "git@github.com:bitrockteam/amber-website.git",
   "author": "Salvatore Laisa <salvatore.laisa@bitrock.it>",
+  "contributors": [
+    "Alessandro Menini <alessandro.menini@bitrock.it>"
+  ],
   "license": "MIT",
   "scripts": {
     "start": "vuepress dev ./src",
@@ -19,6 +22,8 @@
     "vuepress": "1.0.0-alpha.33"
   },
   "devDependencies": {
+    "@vuepress/plugin-back-to-top": "1.0.0-alpha.33",
+    "@vuepress/plugin-google-analytics": "1.0.0-alpha.33",
     "gh-pages": "2.0.1",
     "node-sass": "4.11.0",
     "sass-loader": "7.1.0"
