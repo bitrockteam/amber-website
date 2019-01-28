@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@amber-ds/visual": "1.0.1",
-    "vuepress": "1.0.0-alpha.32"
+    "vuepress": "1.0.0-alpha.33"
   },
   "devDependencies": {
     "gh-pages": "2.0.1",

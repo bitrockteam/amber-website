@@ -1,5 +1,3 @@
-> ## 🛠 Status: In Development
-
 # amber-website
 
 [![Build Status](https://travis-ci.org/bitrockteam/amber-website.svg?branch=master)](https://travis-ci.org/bitrockteam/amber-website) 
@@ -12,7 +10,7 @@ Docs &amp; guides for the Amber Design System, based on the [VuePress](https://v
 ## Amber Design System
 * [amber-visual](https://github.com/bitrockteam/amber-visual) - Styleguide, visual assets & global CSS.
 * [amber-components]() - Javascript Web Components .
-* ~~[amber-examples]() - Templates & boilerplates. Quickly setup your next project!~~
+<!-- * ~~[amber-examples]() - Templates & boilerplates. Quickly setup your next project!~~ -->
 
 ## Development
 
@@ -44,4 +42,6 @@ $ yarn build
 Please refer to our [contributing](./contributing.md) document.
 
 ## License
-Developed by Bitrock UI Engineering team, released under the [MIT license](LICENSE).
+Website developed by Bitrock UI Engineering team, released under the [MIT license](LICENSE), the Amber Design System logo is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+
+[Bitrock](https://bitrock.it/) s.r.l is part of [Databiz Group](https://databiz.it/).
