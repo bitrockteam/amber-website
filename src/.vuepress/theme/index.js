@@ -23,6 +23,9 @@ module.exports = (options, ctx) => ({
     ['@vuepress/google-analytics', {
       'ga': 'UA-132704648-1'
     }],
-    '@vuepress/back-to-top'
+    '@vuepress/back-to-top',
+    ['@vuepress/pwa', {
+      'updatePopup': true
+    }]
   ]
 })

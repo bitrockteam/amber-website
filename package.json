@@ -19,11 +19,12 @@
   },
   "dependencies": {
     "@amber-ds/visual": "1.0.1",
-    "vuepress": "1.0.0-alpha.33"
+    "vuepress": "1.0.0-alpha.35"
   },
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "1.0.0-alpha.33",
     "@vuepress/plugin-google-analytics": "1.0.0-alpha.33",
+    "@vuepress/plugin-pwa": "1.0.0-alpha.0",
     "gh-pages": "2.0.1",
     "node-sass": "4.11.0",
     "sass-loader": "7.1.0"
