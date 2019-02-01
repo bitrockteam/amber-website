@@ -12,9 +12,8 @@ module.exports = {
     ['meta', { name: 'msapplication-TileColor', content: '#da532c' }],
     ['meta', { name: 'theme-color', content: '#eb6400' }],
     ['meta', { property: 'og:title', content: 'Amber Design System' }],
-    ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:url', content: 'https://amber.bitrock.it/' }],
     ['meta', { property: 'og:description', content: 'Amber is an open source Design System crafted by the team at Bitrock to help designers and developers build great digital products and experiences.' }],
+    ['meta', { property: 'og:url', content: 'https://amber.bitrock.it/' }],
     ['meta', { property: 'og:image', content: '/img/cover.png' }],
     ['script', { async: true, src: 'https://unpkg.com/@amber-ds/components@1.0.0/index.js' }]
   ],
