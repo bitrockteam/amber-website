@@ -17,7 +17,9 @@
         class="site-name"
         v-if="$siteTitle"
         :class="{ '': $site.themeConfig.logo }"
-      >{{ $siteTitle }}</span>
+      >
+      <!-- {{ $siteTitle }} -->Amber
+      </span>
     </router-link>
 
     <div
@@ -52,7 +54,7 @@ export default {
   },
 
   mounted () {
-    const MOBILE_DESKTOP_BREAKPOINT = 719 // refer to config.styl
+    const MOBILE_DESKTOP_BREAKPOINT = 767 // refer to config.styl
     const NAVBAR_VERTICAL_PADDING = parseInt(css(this.$el, 'paddingLeft')) + parseInt(css(this.$el, 'paddingRight'))
     const handleLinksWrapWidth = () => {
       if (document.documentElement.clientWidth < MOBILE_DESKTOP_BREAKPOINT) {
@@ -102,7 +104,8 @@ $navbar-horizontal-padding = 1.5rem
   .site-name
     font-size 1.3rem
     font-weight 600
-    color $textColor
+    // color $textColor
+    color: #3d3d3d
     position relative
   .links
     padding-left 1.5rem

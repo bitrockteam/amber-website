@@ -7,7 +7,7 @@
         alt="hero"
       >
 
-      <h1>{{ data.heroText || $title || 'Hello' }}</h1>
+      <h1>{{ data.heroText || $title || 'Hello' }}<span class="second-word"> Design System</span></h1>
 
       <p class="description">
         {{ data.tagline || $description || 'Welcome to your VuePress site' }}
@@ -45,6 +45,7 @@
       v-if="data.footer"
     >
       {{ data.footer }}
+      <a target="_blank" rel="noopener" href="https://bitrock.it"> Bitrock s.r.l.</a>
     </div>
   </div>
 </template>
@@ -86,7 +87,7 @@ export default {
       font-size 3rem
       color #3d3d3d
     h1, .description, .action
-      margin 1.8rem auto
+      margin 2rem auto
     .description
       max-width 40rem
       font-size 1.6rem
@@ -140,7 +141,7 @@ export default {
       flex-direction column
     .feature
       max-width 100%
-      padding 0 2.5rem
+      padding 0
 
 @media (max-width: $MQMobileNarrow)
   .home
@@ -149,11 +150,11 @@ export default {
     .hero
       img
         max-height 210px
-        margin 2rem auto 1.2rem
+        margin 2rem auto
       h1
         font-size 2rem
       h1, .description, .action
-        margin 1.2rem auto
+        margin 1.5rem auto
       .description
         font-size 1.2rem
       .action-button

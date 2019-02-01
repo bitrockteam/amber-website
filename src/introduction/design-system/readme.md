@@ -4,7 +4,7 @@
 
 ## About
 
-Amber is an open source design system created by the team at [Bitrock](https://bitrock.it/) to help designers and developers build great digital products and experiences. The system consists of visual guidelines, flexible components and useful resources.
+Amber is an open source design system crafted by the team at [Bitrock](https://bitrock.it/) to help designers and developers build great digital products and experiences. The system consists of visual guidelines, flexible components and useful resources.
 
 The goals of the system include improving UI consistency and quality, making the design and development process more efficient and focused, establishing a shared vocabulary between designer and developer, and providing clear, discoverable guidance around design and development best practices.
 
