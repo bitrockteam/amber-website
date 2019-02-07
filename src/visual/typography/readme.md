@@ -23,7 +23,7 @@ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica N
 font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 ```
 
-## Type Scale
+## Type scale
 
 Font sizes are smaller on mobile and scale up at the medium breakpoint to be larger on desktop.
 
@@ -147,7 +147,7 @@ Font sizes are smaller on mobile and scale up at the medium breakpoint to be lar
 | ----------------------------- | ----------------- | ------------------ | ----------------- | ------------------- |
 | `<h6></h6>`                   | 16px              | 24px               | 16px              | 24px                |
 
-## Kitchensink
+## Kitchen sink
 
 <p>Lorem ipsum <code>code</code> dolor sit amet, consectetur adipiscing <a href="#">link</a> elit. Fusce bibendum <i>italic</i> eu nisl eu dignissim. Cras malesuada <b>bold</b> nunc in vestibulum ullamcorper.</p>
 
