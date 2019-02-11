@@ -18,6 +18,35 @@ import '@amber-ds/components/date';
 </amber-date>
 ```
 
+### Attributes
+
+| Name | Type | Default value | Description |
+|------|------|---------------|-------------|
+| `inline` | `Boolean` | `false` | If the datepicker will be shown inline within the content |
+| `disabled` | `Boolean` | `false` | If input element is disabled |
+| `time` | `Boolean` | `false` | Shortcut for the [Flatpicker `enableTime` option](https://flatpickr.js.org/options/) |
+| `mode` | `String` | `single` | Shortcut for the [Flatpickr `mode` option](https://flatpickr.js.org/options/), options: `'single'`, `'multiple'` or `'range` |
+| `value` | `String` | N/A | Starting value in the `YYYY-MM-DD` format |
+
+### Properties
+
+| Name | Type | Default value | Description |
+|------|------|---------------|-------------|
+| `config` | `Object` | {} | A [Flatpickr option object](https://flatpickr.js.org/options/) |
+| `flatpickr` | `Function` | N/A | A reference to the Flatpickr instance |
+
+### Methods
+| Name | Arguments | Return | Description |
+|------|-----------|--------|-------------|
+| `.open()` | N/A | N/A | Show the datepicker widget |
+| `.close()` | N/A | N/A | Hide the datepicker widget |
+
+### Events
+| Name | Detail | Description |
+|------|--------|-------------|
+|`change`|`{ dateStr: String,` `selectedDates: Array<String>,` `instance: Object }`| Fired each the user select a date from the widget, it returns the values in string and array format and also a reference to the Flatpickr instance |
+
+
 ### Storybook
 
 <amber-tabs 

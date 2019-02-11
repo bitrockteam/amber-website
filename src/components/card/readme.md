@@ -17,5 +17,14 @@ import '@amber-ds/components/card';
 </amber-card>
 ```
 
+### Attributes
+
+| Name | Type | Default value | Description |
+|------|------|---------------|-------------|
+| `title` | `String` | `''` | The title of the card, the card header is not rendered if empty |
+| `taxonomy` | `String` | `''` | The text of the taxonomy of the card, it will not be rendered if empty |
+| `media` | `String` | `''` | The url of an image for the card cover, the figure will not be rendered if empty |
+| `background` | `String` | `'white'` | The background color of the card, options: `'white'` and `'light'` |
+
 ### Storybook
 <iframe width="100%" height="500px" src="https://bitrockteam.github.io/amber-components/?selectedKind=Card&selectedStory=Playground&full=0&addons=1&stories=0&panelRight=0&addonPanel=storybooks%2Fstorybook-addon-knobs"></iframe>

@@ -19,5 +19,14 @@ import '@amber-ds/components/progress';
 ></amber-progress>
 ```
 
+### Attributes
+
+| Name | Type | Default value | Description |
+|------|------|---------------|-------------|
+| `size` | `Number` | `48` | Width of the element |
+| `stroke` | `Number` | `4` | Width of the stroke overlay color |
+| `value` | `Number` | `25` | Percent of the color covering the element |
+| `determinate` | `Boolean` | `false` | If it displays a determinate spinner or an infinite one |
+
 ### Storybook
 <iframe width="100%" height="500px" src="https://bitrockteam.github.io/amber-components/?selectedKind=Progress&selectedStory=Playground&full=0&addons=1&stories=0&panelRight=0&addonPanel=storybooks%2Fstorybook-addon-knobs"></iframe>
