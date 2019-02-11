@@ -48,14 +48,6 @@ a:focus, a:hover {
 
 .content {
 
-    h2:not(:first-child) {
-        margin-top: 2rem;
-    }
-
-    h3 {
-        margin-top: 2rem;
-    }
-
     .icon {
         &.outbound {
             display: none;
@@ -96,6 +88,21 @@ a:focus, a:hover {
     .content:not(.custom) > h2 + h4 {
         margin-top: 0;
         padding-top: 0;
+    }
+}
+
+.content {
+
+    .color, .typography, .layout, .grid, .forms {
+
+        h2:not(:first-child) {
+            margin-top: 2rem;
+        }
+
+        h3 {
+            margin-top: 2rem;
+        }
+
     }
 }
 

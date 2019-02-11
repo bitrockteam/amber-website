@@ -1,5 +1,7 @@
 # Forms
 
+<div class="forms">
+
 ## Text input
 
 <div class="row forms">
@@ -90,6 +92,8 @@
 <div class="col-12 col-lg-6">
     <label for="url">Url</label>
     <input type="url" id="url" size="">
+</div>
+
 </div>
 
 </div>
