@@ -74,6 +74,7 @@ module.exports = {
             '/resources/compatibility/',
             // '/resources/examples/',
             // '/resources/changelog/',
+            '/resources/faq/',
           ]
         },
       ]
