@@ -1,7 +1,6 @@
 <template>
   <SWUpdatePopup>
     <amber-banner
-      state="defult"
       title="New content available."
       labels="Refresh"
       active
