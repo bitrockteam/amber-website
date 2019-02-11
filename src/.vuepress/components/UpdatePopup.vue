@@ -1,12 +1,13 @@
 <template>
   <SWUpdatePopup>
-    <amber-banner
-      title="New content available."
-      labels="Refresh"
-      active
-      slot-scope="{ reload }"
-      @confirm="reload"
-    />
+    <section slot-scope="{ reload, message, buttonText, updateEvent, enabled }">
+      <amber-banner
+        v-bind:title="message"
+        v-bind:labels="buttonText"
+        v-bind:active="enabled"
+        v-on:confirm="reload"
+      ></amber-banner>
+    </section>    
   </SWUpdatePopup>
 </template>
 

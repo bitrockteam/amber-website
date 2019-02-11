@@ -25,7 +25,9 @@ module.exports = (options, ctx) => ({
     }],
     '@vuepress/back-to-top',
     ['@vuepress/pwa', {
-      'updatePopup': true
+      'serviceWorker': true,
+      'popupComponent': 'UpdatePopup',
+      'updatePopup': true,
     }]
   ]
 })

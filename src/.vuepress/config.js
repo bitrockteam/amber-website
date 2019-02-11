@@ -84,13 +84,7 @@ module.exports = {
 
     repoLabel: 'GitHub',
 
-    plugins: {
-      '@vuepress/pwa': {
-        serviceWorker: true,
-        popupComponent: 'UpdatePopup',
-        updatePopup: true,
-      }
-    },
+    plugins: [],
 
     lastUpdated: 'Last Updated',
 
