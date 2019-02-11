@@ -4,7 +4,8 @@
       title="New content available."
       labels="Refresh"
       active
-      @confirm="refresh"
+      slot-scope="{ reload }"
+      @confirm="reload"
     />
   </SWUpdatePopup>
 </template>
@@ -13,11 +14,6 @@
 import SWUpdatePopup from "@vuepress/plugin-pwa/lib/SWUpdatePopup.vue";
 
 export default {
-  components: { SWUpdatePopup },
-  methods: {
-    refresh() {
-      location.reload();
-    }
-  }
+  components: { SWUpdatePopup }
 };
 </script>
