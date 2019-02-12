@@ -29,4 +29,4 @@ import '@amber-ds/components/progress';
 | `determinate` | `Boolean` | `false` | If it displays a determinate spinner or an infinite one |
 
 ### Storybook
-<iframe width="100%" height="500px" src="https://bitrockteam.github.io/amber-components/?selectedKind=Progress&selectedStory=Playground&full=0&addons=1&stories=0&panelRight=0&addonPanel=storybooks%2Fstorybook-addon-knobs"></iframe>
+<iframe title="storybook" width="100%" height="500px" src="https://bitrockteam.github.io/amber-components/?selectedKind=Progress&selectedStory=Playground&full=0&addons=1&stories=0&panelRight=0&addonPanel=storybooks%2Fstorybook-addon-knobs"></iframe>

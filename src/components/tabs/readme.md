@@ -33,4 +33,4 @@ import '@amber-ds/components/tabs';
 |`change`|`{ active: Number }`| Fired each time a tab label is clicked and returns the current active tab index. **Not fired** on programmatic change of the `active` attribute |
 
 ### Storybook
-<iframe width="100%" height="500px" src="https://bitrockteam.github.io/amber-components/?selectedKind=Tabs&selectedStory=Playground&full=0&addons=1&stories=0&panelRight=0&addonPanel=storybooks%2Fstorybook-addon-knobs"></iframe>
+<iframe title="storybook" width="100%" height="500px" src="https://bitrockteam.github.io/amber-components/?selectedKind=Tabs&selectedStory=Playground&full=0&addons=1&stories=0&panelRight=0&addonPanel=storybooks%2Fstorybook-addon-knobs"></iframe>

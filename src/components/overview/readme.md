@@ -35,4 +35,4 @@ The **WebComponents** specification is an umbrella term to group the [Custom Ele
 To achieve a better code resilience, all components are written in [TypeScript](https://www.typescriptlang.org/) to take advantage mainly of static type checking and the decorators syntax. It is also used to transpile code to ES-2015.
 
 ### Based on Lit-HTML & LitElement
-Since Web Components as a standard doesn't handle the rendering mechanics and data-binding, we are adopting [Lit-HTML](https://polymer.github.io/lit-html/) and its Web Component class LitElement as a foundation layer for every comoponent within this library.
+Since Web Components as a standard doesn't handle the rendering mechanics and data-binding, we are adopting [Lit-HTML](https://lit-html.polymer-project.org/) and its Web Component class [LitElement](https://lit-element.polymer-project.org/) as a foundation layer for every comoponent within this library.
