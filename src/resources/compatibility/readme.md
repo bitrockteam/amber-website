@@ -18,12 +18,12 @@ The library targets the *evergreen* (Chrome, Firefox, Safari, Edge) browsers out
 | Web Components v1 | [CanIUse?](https://caniuse.com/#feat=shadowdomv1) | [Google](https://github.com/webcomponents/webcomponentsjs)| N/A |
 
 ## JS frameworks/libraries
-As the `amber-components` are based on the *Web Components v1* specification they are compatible with almost every Javascript framework or library. You can find an exhaustive list on [Custom Elementss Everywhere](https://custom-elements-everywhere.com/) website.
+As the `amber-components` are based on the *Web Components v1* specification they are compatible with almost every Javascript framework or library. You can find an exhaustive list on [Custom Elements Everywhere](https://custom-elements-everywhere.com/) website.
 
 Following you will find a set of small examples demonstrating the `amber-tabs` component interacting with properties and events on differents JS frameworks/libraries.
 
 ### Vue
-You can seamlessy use Web Components in Vue template syntax.
+You can seamlessly use Web Components in Vue template syntax.
 
 <iframe height="265" style="width: 100%;" scrolling="no" title="Amber-Vue" src="//codepen.io/bitrock/embed/MLWxGJ/?height=265&theme-id=0&default-tab=html,resultundefined" frameborder="no" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/bitrock/pen/MLWxGJ/'>Amber-Vue</a> by Bitrock
