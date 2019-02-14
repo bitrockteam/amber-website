@@ -93,7 +93,7 @@ export default {
       font-size 1.6rem
       line-height 1.3
       // color lighten($textColor, 40%)
-      color #7a7a7a
+      color #999999
     .action-button
     //   display inline-block
     //   font-size 1.2rem
