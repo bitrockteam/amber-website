@@ -28,7 +28,7 @@ Use `.container-fluid` for a full width container, spanning the entire width of 
 
 Since Amber is developed to be mobile first, we use a handful of media queries to create sensible breakpoints for our layouts and interfaces. These breakpoints are mostly based on minimum viewport widths and allow us to scale up elements as the viewport changes.
 
-Amber shares the same Bootsrap breakpoints:
+Amber shares the same Bootstrap breakpoints:
 
 ```css
 // Extra small devices (portrait phones, less than 576px)
