@@ -23,7 +23,7 @@ Then you can import the styles on the main `.html` file or from a `.css` file.
 Alternatively you can import the package from the Unpkg CDN at the following url:
 
 ```
-unpkg.com/@amber-ds/visual@1.0.1/dist/index.css
+https://unpkg.com/@amber-ds/visual@1.0.1/dist/index.css
 ```
 
 You should see the page updated with the new styles, you can now follow the [related documentation](/visual/color/) to learn how to use it.
@@ -47,7 +47,7 @@ Then you can import the styles on the main `.html` file or from a `.js` file.
 Alternatively you can import the package from the Unpkg CDN at the following url:
 
 ```
-unpkg.com/@amber-ds/components@1.0.0/index.js
+https://unpkg.com/@amber-ds/components@1.0.0/index.js
 ```
 
 then in your HTML file or Javascript template you can instantiate every component you need from this library, follow the [related documentation](/components/overview/) to learn how to use them. 
