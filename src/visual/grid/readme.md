@@ -228,7 +228,7 @@ Amber’s grid includes five set of predefined classes for building complex resp
 
 For grids that are the same from the smallest of devices to the largest, use the `.col-*` classes. Specify a different class when you need a particularly sized column.
 
-| Extra small <576px | Small ≥576px | Medium≥768px | Large ≥992px | Extra large ≥1200px |
+| Extra small <576px | Small ≥576px | Medium ≥768px | Large ≥992px | Extra large ≥1200px |
 |--------------------|--------------|--------------|--------------|---------------------|
 | `.col-*`           | `.col-sm-*`  | `.col-md-*`  | `.col-lg-*`  | `.col-xl-*`         |
 
