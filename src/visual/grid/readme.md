@@ -6,7 +6,7 @@
 
 Amber features a 12-column grid system that uses a series of containers, rows, and columns to layout and align content. It’s built with CSS Grid and is fully responsive.
 
-It shares the same Bootsrap semnatic. You can create a basic grid system by placing all the elements inside a `.row`.
+It shares the same Bootstrap semantic. You can create a basic grid system by placing all the elements inside a `.row`.
 
 <article class="grid-card-container row">
 
@@ -228,7 +228,7 @@ Amber’s grid includes five set of predefined classes for building complex resp
 
 For grids that are the same from the smallest of devices to the largest, use the `.col-*` classes. Specify a different class when you need a particularly sized column.
 
-| Extra small <576px | Small ≥576px | Medium≥768px | Large ≥992px | Extra large ≥1200px |
+| Extra small <576px | Small ≥576px | Medium ≥768px | Large ≥992px | Extra large ≥1200px |
 |--------------------|--------------|--------------|--------------|---------------------|
 | `.col-*`           | `.col-sm-*`  | `.col-md-*`  | `.col-lg-*`  | `.col-xl-*`         |
 
