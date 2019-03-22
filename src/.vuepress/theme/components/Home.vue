@@ -18,9 +18,17 @@
         v-if="data.actionText && data.actionLink"
       >
         <NavLink
+          v-show="data.visible"
+          ref="navlink"
           class="action-button"
           :item="actionLink"
         />
+        <amber-button
+          priority="primary"
+          @click="goTo()"
+        >
+          {{ data.actionText }}
+        </amber-button>
       </p>
     </div>
 
@@ -55,6 +63,12 @@ import NavLink from './NavLink.vue'
 
 export default {
   components: { NavLink },
+
+  methods: {
+    goTo () {
+      this.$refs.navlink.$el.click();
+    }
+  },
 
   computed: {
     data () {
