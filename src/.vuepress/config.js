@@ -15,7 +15,7 @@ module.exports = {
     ['meta', { property: 'og:description', content: 'Amber is an open source Design System crafted by the team at Bitrock to help designers and developers build great digital products and experiences.' }],
     ['meta', { property: 'og:url', content: 'https://amber.bitrock.it/' }],
     ['meta', { property: 'og:image', content: '/img/cover.png' }],
-    ['script', { async: true, src: 'https://unpkg.com/@amber-ds/components@1.0.2/index.js' }]
+    ['script', { async: true, src: 'https://unpkg.com/@amber-ds/components@1.1.0/index.js' }]
   ],
 
   base: '/',

@@ -44,4 +44,4 @@ import '@amber-ds/components/modal';
 > **Known issue:** clicking the backdrop will **not** close the modal, due to the native implementation, we are looking to apply a workaround in the next releases.
 
 ### Storybook
-<iframe title="storybook" width="100%" height="500px" src="https://bitrockteam.github.io/amber-components/?selectedKind=Modal&selectedStory=Playground&full=0&addons=1&stories=0&panelRight=0&addonPanel=storybooks%2Fstorybook-addon-knobs"></iframe>
+<iframe title="storybook" width="100%" height="500px" src="https://bitrockteam.github.io/amber-components/?path=/story/modal--playground"></iframe>

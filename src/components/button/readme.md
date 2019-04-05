@@ -28,4 +28,4 @@ import '@amber-ds/components/button';
 | `progress` | `String` | `''` | Switch content to progress states, available options: empty, `'pending'`, `'error'` and `'success'` |
 
 ### Storybook
-<iframe title="storybook" width="100%" height="500px" src="https://bitrockteam.github.io/amber-components/?selectedKind=Button&selectedStory=Playground&full=0&addons=1&stories=0&panelRight=0&addonPanel=storybooks%2Fstorybook-addon-knobs"></iframe>
+<iframe title="storybook" width="100%" height="500px" src="https://bitrockteam.github.io/amber-components/?path=/story/button--playground"></iframe>

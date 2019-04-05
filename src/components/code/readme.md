@@ -30,4 +30,4 @@ import '@amber-ds/components/code';
 | `copied` |`{ content: String }`| Fired each time the user clicks the *'copy to clipboard'* button and the clipboard has received data, it returns the copied text |
 
 ### Storybook
-<iframe title="storybook" width="100%" height="500px" src="https://bitrockteam.github.io/amber-components/?selectedKind=Code&selectedStory=Playground&full=0&addons=1&stories=0&panelRight=0&addonPanel=storybooks%2Fstorybook-addon-knobs"></iframe>
+<iframe title="storybook" width="100%" height="500px" src="https://bitrockteam.github.io/amber-components/?path=/story/code--playground"></iframe>

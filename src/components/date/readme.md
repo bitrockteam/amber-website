@@ -55,15 +55,15 @@ import '@amber-ds/components/date';
   labels="Default,Inline,Modes,Time"
 >
 <amber-tab-content>
-<iframe title="storybook" width="100%" height="500px" src="https://bitrockteam.github.io/amber-components/?selectedKind=Date%20Picker&selectedStory=Playground&full=0&addons=1&stories=0&panelRight=0&addonPanel=storybooks%2Fstorybook-addon-knobs"></iframe>
+<iframe title="storybook" width="100%" height="500px" src="https://bitrockteam.github.io/amber-components/?path=/story/date-picker--playground"></iframe>
 </amber-tab-content>
 <amber-tab-content>
-<iframe title="storybook" width="100%" height="500px" src="https://bitrockteam.github.io/amber-components/?selectedKind=Date%20Picker&selectedStory=Inline&full=0&addons=1&stories=0&panelRight=0&addonPanel=storybooks%2Fstorybook-addon-knobs"></iframe>
+<iframe title="storybook" width="100%" height="500px" src="https://bitrockteam.github.io/amber-components/?path=/story/date-picker--inline"></iframe>
 </amber-tab-content>
 <amber-tab-content>
-<iframe title="storybook" width="100%" height="500px" src="https://bitrockteam.github.io/amber-components/?selectedKind=Date%20Picker&selectedStory=Modes&full=0&addons=1&stories=0&panelRight=0&addonPanel=storybooks%2Fstorybook-addon-knobs"></iframe>
+<iframe title="storybook" width="100%" height="500px" src="https://bitrockteam.github.io/amber-components/?path=/story/date-picker--modes"></iframe>
 </amber-tab-content>
 <amber-tab-content>
-<iframe title="storybook" width="100%" height="500px" src="https://bitrockteam.github.io/amber-components/?selectedKind=Date%20Picker&selectedStory=Time&full=0&addons=1&stories=0&panelRight=0&addonPanel=storybooks%2Fstorybook-addon-knobs"></iframe>
+<iframe title="storybook" width="100%" height="500px" src="https://bitrockteam.github.io/amber-components/?path=/story/date-picker--time"></iframe>
 </amber-tab-content>
 </amber-tabs>

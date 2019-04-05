@@ -27,4 +27,4 @@ import '@amber-ds/components/card';
 | `background` | `String` | `'white'` | The background color of the card, options: `'white'` and `'light'` |
 
 ### Storybook
-<iframe title="storybook" width="100%" height="500px" src="https://bitrockteam.github.io/amber-components/?selectedKind=Card&selectedStory=Playground&full=0&addons=1&stories=0&panelRight=0&addonPanel=storybooks%2Fstorybook-addon-knobs"></iframe>
+<iframe title="storybook" width="100%" height="500px" src="https://bitrockteam.github.io/amber-components/?path=/story/card--playground"></iframe>
