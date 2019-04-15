@@ -47,7 +47,7 @@ Then you can import the styles on the main `.html` file or from a `.js` file.
 Alternatively you can import the package from the Unpkg CDN at the following url:
 
 ```
-https://unpkg.com/@amber-ds/components@1.1.0/index.js
+https://unpkg.com/@amber-ds/components@1.2.0/index.js
 ```
 
 then in your HTML file or Javascript template you can instantiate every component you need from this library, follow the [related documentation](/components/overview/) to learn how to use them. 

@@ -25,6 +25,7 @@ import '@amber-ds/components/button';
 | `state` | `String` | `''` | Visual state, options are: empty, `success`, `error`, `warning`, `info` |
 | `disabled` | `Boolean` | `false` | If the element is disabled |
 | `fitted` | `Boolean` | `false` | If the element will fit all the available space in width |
+| `nooutline` | `Boolean` | `false` | Remove the default light blue outline |
 | `progress` | `String` | `''` | Switch content to progress states, available options: empty, `'pending'`, `'error'` and `'success'` |
 
 ### Storybook
