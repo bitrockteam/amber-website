@@ -39,7 +39,7 @@ You can install the `@amber-ds/components` with your favourite package manager
 
 Then you can import the styles on the main `.html` file or from a `.js` file.
 <amber-tabs labels="HTML,JS,JS (Webpack)">
-  <amber-tab-content><div class="language-html extra-class"><pre class="language-html"><code>&lt;script href="./node_modules/@amber-ds/components/index.js" script&gt;&lt;/script&gt</code></pre></div></amber-tab-content>
+  <amber-tab-content><div class="language-html extra-class"><pre class="language-html"><code>&lt;script href="./node_modules/@amber-ds/components/index.js" script&gt;&lt;/script&gt;</code></pre></div></amber-tab-content>
   <amber-tab-content><div class="language-js extra-class"><pre class="language-js"><code>import './node_modules/@amber-ds/components/index.js'</code></pre></div></amber-tab-content>
   <amber-tab-content><div class="language-js extra-class"><pre class="language-js"><code>import '@amber-ds/components'</code></pre></div></amber-tab-content>
 </amber-tabs>
