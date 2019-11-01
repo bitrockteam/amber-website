@@ -133,19 +133,19 @@ Font sizes are smaller on mobile and scale up at the medium breakpoint to be lar
 
 | Selector                      | Mobile Font Size  | Mobile Line height | Desktop Font Size | Desktop Line height |
 | ----------------------------- | ----------------- | ------------------ | ----------------- | ------------------- |
-| `<h5></h5>`                   | 14px              | 20px               | 14px              | 20px                |
+| `<h6></h6>`                   | 14px              | 20px               | 14px              | 20px                |
 
 ### Paragraph
 
 <div class="type-container">
 
-<h6>What does it take to look beyond?</h6>
+<p>What does it take to look beyond?</p>
 
 </div>
 
 | Selector                      | Mobile Font Size  | Mobile Line height | Desktop Font Size | Desktop Line height |
 | ----------------------------- | ----------------- | ------------------ | ----------------- | ------------------- |
-| `<h6></h6>`                   | 16px              | 24px               | 16px              | 24px                |
+| `<p></p>`                   | 16px              | 24px               | 16px              | 24px                |
 
 ## Kitchen sink
 
