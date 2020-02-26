@@ -27,6 +27,7 @@ import '@amber-ds/components/progress-bar';
 | `format` | `String` | `%` | A symbol to append after the visible digit value |
 | `nodigits` | `Boolean` | `false` | Hide the digits value |
 | `display` | `Number` | `` | A number that overrides the visible digit value |
+| `disabled` | `Boolean` | `false` | Disable the element |
 
 ### Storybook
 <iframe title="storybook" width="100%" height="500px" src="https://bitrockteam.github.io/amber-components/?path=/story/progress-bar--playground"></iframe>
