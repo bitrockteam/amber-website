@@ -1,6 +1,6 @@
 # amber-website
 
-[![Build Status](https://travis-ci.org/bitrockteam/amber-website.svg?branch=master)](https://travis-ci.org/bitrockteam/amber-website) 
+[![Build Status](https://travis-ci.org/bitrockteam/amber-website.svg?branch=master)](https://travis-ci.org/bitrockteam/amber-website)
 ![https://david-dm.org/bitrockteam/amber-website.svg](https://david-dm.org/bitrockteam/amber-website.svg)
 
 ![./logo/logo-horizontal.svg](./logo/logo-horizontal.svg)
@@ -9,7 +9,7 @@ Docs &amp; guides for the Amber Design System, based on the [VuePress](https://v
 
 ## Amber Design System
 * [amber-visual](https://github.com/bitrockteam/amber-visual) - Styleguide, visual assets & global CSS.
-* [amber-components]() - Javascript Web Components .
+* [amber-components](https://github.com/bitrockteam/amber-components) - Javascript Web Components .
 <!-- * ~~[amber-examples]() - Templates & boilerplates. Quickly setup your next project!~~ -->
 
 ## Development
